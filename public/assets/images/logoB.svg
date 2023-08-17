@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="244.258" height="78.67" viewBox="0 0 244.258 78.67">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fca510"/>
+      <stop offset="0.237" stop-color="#fccb2c"/>
+      <stop offset="0.427" stop-color="#fee99f"/>
+      <stop offset="0.848" stop-color="#fdd32f"/>
+      <stop offset="1" stop-color="#fdb407"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_281" data-name="Group 281" transform="translate(884.64 531.311)">
+    <g id="Group_1" data-name="Group 1" transform="translate(-884.64 -531.311)">
+      <path id="Path_3" data-name="Path 3" d="M-641.742-171.579l2.256,3.163-12.612,4.834,32.632,13.261,33.507-13.261-13.231-4.834,1.547-3.163,21.068,8-42.891,17.2-42.367-17.2Z" transform="translate(661.833 225.048)" fill="url(#linear-gradient)"/>
+      <path id="Path_1" data-name="Path 1" d="M-605.867-248.6h-3.182v-43.825l12.187-7.2,8.615,4.593v-9.816l12.007-7.2,11.8,7.2V-248.6h-3.182l-.061-54.661-6.753-3.782v28.006l-3.992-2.4v-25.6l-6.033,3.782v18.04l-3.782-1.831v-4.839l-6.6-3.146v13.6l-3.422,2.4v-16l-7.594,4.2Z" transform="translate(629.14 312.056)" fill="url(#linear-gradient)"/>
+      <path id="Path_2" data-name="Path 2" d="M-582-196.784l3.812,2.221V-225l6.994-3.572v35.81l1.591,1.8,2.011-1.8v-35.81L-561.2-225v30.437l3.6-2.221v-30.2l-12.007-6.214-12.4,6.214Z" transform="translate(612.386 263.211)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Group_7" data-name="Group 7" transform="translate(-799.382 -511.781)">
+      <text id="ETHOS_MATRIX" data-name="ETHOS MATRIX" transform="translate(0 19)" fill="#181819" font-size="20" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="0" y="0">ETHOS MATRIX</tspan></text>
+      <text id="LIMITED" transform="translate(54.404 33.249)" fill="#181819" font-size="10" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="0" y="0">LIMITED</tspan></text>
+    </g>
+  </g>
+</svg>

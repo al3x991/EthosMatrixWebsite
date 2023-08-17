@@ -30,19 +30,19 @@ const Navbar = () => {
   return (
     <nav
 
-      className={`fixed  w-full z-50  transition-all duration-300 ${
+      className={`fixed  w-full sm:px-5 md:px-10 lg:px-20 z-50  transition-all duration-300 ${
         menuOpen && window.scrollY > 0 ? 'bg-white' : '',
         scrolling ? 'shadow-md  bg-white text-black' : 'bg-transparent border-b-2  text-white'
       }`}
     >
-      <div className="container mx-auto flex justify-between py-4">
+      <div className="container  flex justify-between py-4">
 
         <div className="flex items-center">
           <Image
-            src="/assets/images/logo.png" // Replace with your logo path
+            src={scrolling  ? '/assets/images/logoB.svg' : '/assets/images/logoW.svg'}
             alt="Logo"
-            width={70}
-            height={70}
+            width={120}
+            height={120}
           />
         </div>
         <div className="text-base hidden md:flex items-center space-x-6">

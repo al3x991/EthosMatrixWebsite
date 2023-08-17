@@ -14,9 +14,17 @@ objectFit="cover"
 layout="fill"
 />
 <div className="absolute inset-0 bg-black backdrop-brightness-50 opacity-75"></div>
-<div className="absolute inset-0 flex items-center justify-center text-white text-center">
-<h1 className="text-4xl font-bold">Your Title Here</h1>
-<p className="mt-2 text-lg">Your subtitle goes here.</p>
+<div className="absolute inset-0 mt-44 flex items-left center text-white">
+<div className="max-w-3xl mx-auto ml-10">
+        <p className="text-xs">Subtext Here</p>
+        <h2 className="text-3xl font-semibold mb-4">Section Title</h2>
+        <p className="text-sm">
+          Section body content goes here. You can provide more information about your services or company.
+        </p>
+        <button className="border border-white text-white mt-4 px-6 py-2 rounded-md font-medium hover:bg-white hover:text-blue-500">
+          Discover More
+        </button>
+      </div>
 </div>
 </section>
 );
