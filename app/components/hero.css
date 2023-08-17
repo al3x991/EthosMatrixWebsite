@@ -1,17 +1,4 @@
-.hero-home1 {
-    width: 500px;
-    height: 400px;
-    background-size: cover;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://download.unsplash.com/photo-1428604467652-115d9d71a7f1");
-    position: relative;
-}
 
-.hero-home1 p {
-    font-size: 23px;
-    color: #fff;
-    text-transform: uppercase;
-    font-family: sans-serif;
-    position: absolute;
-    top: 160px;
-    left: 22px;
+.text-color-primary{
+color: #F5A018;
 }

@@ -1,8 +1,8 @@
 import Image from "next/image";
-
+import "./hero.css"
 const Hero = () => {
 return (
-<section className="relative w-full h-[80vh] bg-fixed">
+<section className="relative w-full h-[100vh] md:h-[80vh] bg-fixed">
 {/* className="object-cover w-full h-full"  */}
 <Image 
 src="/assets/images/home1.jpg"
@@ -14,17 +14,18 @@ objectFit="cover"
 layout="fill"
 />
 <div className="absolute inset-0 bg-black backdrop-brightness-50 opacity-75"></div>
-<div className="absolute inset-0 mt-44 flex items-left center text-white">
-<div className="max-w-3xl mx-auto ml-10">
-        <p className="text-xs">Subtext Here</p>
-        <h2 className="text-3xl font-semibold mb-4">Section Title</h2>
-        <p className="text-sm">
-          Section body content goes here. You can provide more information about your services or company.
-        </p>
-        <button className="border border-white text-white mt-4 px-6 py-2 rounded-md font-medium hover:bg-white hover:text-blue-500">
-          Discover More
-        </button>
-      </div>
+<div className="absolute inset-0 mt-20 md:mt-52 flex items-left center text-white">
+{/* max-w-3xl mx-auto ml-10 */}
+<div className="ml-10 mr-10 mt-12  mb-40 md:px-10 lg:px-52">
+<p className=" text-xs md:text-base mb-3">Building Beyond Boundaries</p>
+<h2 className="uppercase text-2xl max-w-xl md:max-w-6xl md:text-4xl font-semibold mb-6"><span className="text-color-primary">Redefining</span> spaces, enriching lives.</h2>
+<p className="my-5 max-w-lg md:max-w-3xl text-sm md:text-base mb-12">
+From revitalizing existing structures to shaping new horizons, we specialize in turning ambitious visions into tangible reality.
+Explore the art of construction excellence and let your aspirations come to life with our expertise.</p>
+<button className="border-btn">
+Discover More
+</button>
+</div>
 </div>
 </section>
 );

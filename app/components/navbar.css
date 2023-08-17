@@ -129,3 +129,9 @@
 .mobileGetQuoteBtn:hover {
   background-color: #0056b3;
 }
+.nav-link{
+font-size: 16x;
+}
+.nav-link:hover{
+  color: #F5A018;
+}

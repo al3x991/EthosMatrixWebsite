@@ -29,13 +29,12 @@ const Navbar = () => {
 
   return (
     <nav
-
-      className={`fixed  w-full sm:px-5 md:px-10 lg:px-20 z-50  transition-all duration-300 ${
+      className={`fixed  w-full sm:px-5 md:px-10 lg:px-52 z-50  transition-all duration-300 ${
         menuOpen && window.scrollY > 0 ? 'bg-white' : '',
-        scrolling ? 'shadow-md  bg-white text-black' : 'bg-transparent border-b-2  text-white'
+        scrolling ? 'shadow-md  bg-white text-black' : 'bg-transparent  text-white'
       }`}
     >
-      <div className="container  flex justify-between py-4">
+      <div className="container  flex justify-between py-4 px-3.5">
 
         <div className="flex items-center">
           <Image
@@ -45,27 +44,27 @@ const Navbar = () => {
             height={120}
           />
         </div>
-        <div className="text-base hidden md:flex items-center space-x-6">
-          <a href="#" className="hover:text-gray-800">
+        <div className="text-base hidden md:flex items-center space-x-6 nav-link">
+          <a href="#" className="hover:text-amber-500">
             Home
           </a>
-          <a href="#" className="hover:text-gray-800">
+          <a href="#" className="hover:text-amber-500">
             About
           </a>
-          <a href="#" className="hover:text-gray-800">
+          <a href="#" className="hover:text-amber-500">
             Portfolio
           </a>
-          <a href="#" className="hover:text-gray-800">
+          <a href="#" className="hover:text-amber-500">
             Gallery
           </a>
-          <a href="#" className="hover:text-gray-800">
+          <a href="#" className="hover:text-amber-500">
             Contact
           </a>
-          <button className="bg-blue-500 hover:bg-blue-600 text-white px-0 py-0 rounded">
+          <button className="quote-btn">
            <span className=' text-base'>Get Quote</span> 
           </button>
         </div>
-        <div className="md:hidden flex items-center">
+        <div className="md:hidden flex items-center mr-8">
           {/* <button
             className={` focus:outline-none ${
                 scrolling ? ' text-black' : ' text-white'
@@ -116,7 +115,7 @@ const Navbar = () => {
       </div>
       {menuOpen && (
           <div 
-          className={` py-4 drop-shadow-xl  top-0 left-0 w-[65vw] bg-white  p-10 pl-20 text-grey-80 fixed h-full z-40 ${
+          className={` py-4 drop-shadow-xl  top-0 left-0 w-[65vw] bg-white border-t-2 border-t-amber-500  p-10 text-grey-80 fixed h-full z-40 ${
             menuOpen ? "translate-x-0 " : "translate-x-full"
           }`}>
           
@@ -135,7 +134,7 @@ const Navbar = () => {
           <a href="#" className="block px-4 py-2 text-gray-800">
             Contact
           </a>
-          <button className="block bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded mt-2">
+          <button className="quote-btn hidden md:block">
             Get Quote
           </button>
           </div>
