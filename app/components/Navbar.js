@@ -36,7 +36,7 @@ const Navbar = () => {
     >
       <div className="flex flex-wrap items-center justify-between mx-auto py-6 md:px-10 lg:px-52">
 
-        <div className="flex items-center">
+        <div className="flex items-center ml-6">
           <Image
             src={scrolling  ? '/assets/images/logoB.svg' : '/assets/images/logoW.svg'}
             alt="Logo"
