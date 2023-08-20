@@ -44,7 +44,7 @@ const Navbar = () => {
             height={140}
           />
         </div>
-        <div className="text-base hidden md:flex items-center space-x-6 nav-link">
+        <div className="text-base hidden lg:flex items-center space-x-6 nav-link">
           <a href="#" className="hover:text-amber-500">
             Home
           </a>
@@ -64,7 +64,7 @@ const Navbar = () => {
            <span className=' text-base'>Get Quote</span> 
           </button>
         </div>
-        <div className="md:hidden flex items-center mr-8">
+        <div className="lg:hidden flex items-center mr-8">
           {/* <button
             className={` focus:outline-none ${
                 scrolling ? ' text-black' : ' text-white'

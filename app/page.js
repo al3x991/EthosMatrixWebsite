@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Services from './components/Services'
 import Banner from './components/Banner'
+import CTAbanner1 from './components/CTAbanner1'
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
 <Hero/>
 <Banner/>
 <Services/>
+<CTAbanner1/>
     </main>
   )
 }

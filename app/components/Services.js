@@ -1,57 +1,93 @@
-import React from 'react'
+"use client";
+
+
+import React, { useEffect, useRef } from 'react';
+import Image from 'next/image';
+import { motion } from 'framer-motion';
+
+
 
 const Services = () => {
 
+  const gridRef = useRef(null);
+  
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('animate-fade-in');
+          }
+        });
+      },
+      { threshold: 0.5 } // Adjust threshold as needed
+    );
+  
+    if (gridRef.current) {
+      const gridItems = gridRef.current.querySelectorAll('.grid-item');
+      gridItems.forEach((item) => {
+        observer.observe(item);
+      });
+    }
+  }, []);
+
   const services = [
     {
-      icon: '🌟', // Replace with your desired icon
+      icon: 'construction-consultant.svg', // Replace with your desired icon
       title: 'Feature 1',
-      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit et malesuada fames ac turpis egestas.',
     },
     {
-      icon: '🚀', // Replace with your desired icon
+      icon: 'architectural-design.svg', // Replace with your desired icon
       title: 'Feature 2',
       text: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
     },
     {
-      icon: '💡', // Replace with your desired icon
+      icon: 'real-estate.svg', // Replace with your desired icon
       title: 'Feature 3',
       text: 'Vestibulum sed ipsum lacinia, euismod turpis sit amet, finibus ex.',
     },
     {
-      icon: '🔍', // Replace with your desired icon
+      icon: 'general-contracting.svg', // Replace with your desired icon
       title: 'Feature 4',
       text: 'Fusce quis libero id orci vulputate ultricies in a velit.',
     },
     {
-      icon: '🌈', // Replace with your desired icon
+      icon: 'reconstruction-services.svg', // Replace with your desired icon
       title: 'Feature 5',
       text: 'Aenean accumsan elit a mi sodales, nec vehicula urna venenatis.',
     },
     {
-      icon: '🎉', // Replace with your desired icon
+      icon: 'property-development.svg', // Replace with your desired icon
       title: 'Feature 6',
       text: 'Integer luctus nulla id ligula elementum, ut fermentum justo consectetur.',
     },
   ];
 
 return (
-  <div className="text-center mt-8">
-  <h1 className="mt-28 text-4xl font-bold relative inline-block uppercase">
+  <div className="text-center my-40" ref={gridRef}>
+    <motion.div className="" 
+    initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5 }}>
+  <h1 className=" text-4xl font-bold relative inline-block uppercase">
     Our <span className='text-color-primary'>Services</span>
     <div className="w-16 h-1.5 bg-amber-500 absolute  top-11 left-0 transform -translate-x-0"></div>
   </h1>
-  <div className='mt-12'>
-  <div className="container mx-auto px-4 py-8 grid grid-cols-1 md:grid-cols-3 gap-6">
+  <div className='mt-12 flex items-center justify-center'>
+  <div className="container mx-auto px-4 py-8 align-middle grid grid-cols-1 space-y-4 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-2 content-evenly items-start">
       {services.map((service, index) => (
         <div key={index} className="p-4">
-          <div className="md:flex md:justify-start items-center justify-center">
-            <div className="m-auto md:m-0 w-20 h-20 p-10 flex items-center justify-center rounded-full border-2 border-amber-500 md:mr-4">
-              {service.icon}
+          <div className="md:flex lg:justify-start align-middle  md:flex-col lg:flex-row items-center justify-center">
+            <div className="m-auto mt-0 lg:m-0 w-20 h-20 p-10 flex items-center justify-center rounded-full border-4 border-amber-500 lg:mr-4">
+              <Image 
+              src={`/assets/images/${service.icon}`}
+              width={50}
+              height={50}
+              className=' absolute'
+              />
             </div>
-            <div>
-              <h3 className="text-lg font-semibold md:text-left">{service.title}</h3>
-              <p className="mt-2 md:text-left">{service.text}</p>
+            <div className='mt-4 lg:mt-0'>
+              <h3 className="text-lg font-semibold lg:text-left">{service.title}</h3>
+              <p className="mt-2 lg:text-left text-base">{service.text}</p>
             </div>
           </div>
         </div>
@@ -59,6 +95,7 @@ return (
     </div>
   </div>
   {/* <p className="mt-2 top-24 text-gray-600 capitalize">Subtitle</p> */}
+  </motion.div>
 </div>
 )
 }
