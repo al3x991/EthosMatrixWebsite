@@ -94,19 +94,10 @@ return (
       ))}
     </div>
   </div>
-  {/* <p className="mt-2 top-24 text-gray-600 capitalize">Subtitle</p> */}
+
   </motion.div>
 </div>
 )
 }
 
 export default Services
-{/* <div className='ml-10 mr-10 mt-12  mb-40 md:px-10 lg:px-52'>
-<div className='flex items-center justify-center'>
-<h1 className='text-center text-2xl md:text-4xl uppercase  font-bold'>Our 
-<span className='text-color-primary'>&nbsp;Services</span></h1>
-</div>
-<div className='flex items-center justify-center'>
-  <p className='text-center text-base md:text-1xl capitalize font-medium'> All over system </p>
-  </div>
-</div> */}

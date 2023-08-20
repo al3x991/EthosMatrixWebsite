@@ -4,6 +4,10 @@ import Hero from './components/Hero'
 import Services from './components/Services'
 import Banner from './components/Banner'
 import CTAbanner1 from './components/CTAbanner1'
+import BeforeAfter from './components/BeforeAfter'
+
+
+
 
 export default function Home() {
   return (
@@ -13,6 +17,7 @@ export default function Home() {
 <Banner/>
 <Services/>
 <CTAbanner1/>
+<BeforeAfter />
     </main>
   )
 }
