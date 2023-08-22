@@ -80,3 +80,33 @@ width: 40px;
 .large-btn{
 width: 65px;
 }
+
+.slide-content-wrapper {
+  padding: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+.slide-content-wrapper div {
+  flex-basis: 40%;
+}
+.slide-content-wrapper div img {
+  width: 100%;
+  min-height: 300px;
+  display: block;
+}
+.slide-content-wrapper div.slide-content-from-left {
+  transform: translateX(-50%);
+}
+.slide-content-wrapper div.slide-content-from-right {
+  transform: translateX(50%);
+}
+.slide-content-wrapper div.slide-content-from-left, .slide-content-wrapper div.slide-content-from-right {
+  transition: opacity 250ms ease-in, transform 400ms ease-in;
+  opacity: 0;
+}
+.slide-content-wrapper div.slide-content-from-left.appear, .slide-content-wrapper div.slide-content-from-right.appear {
+  transform: translateX(0);
+  opacity: 1;
+}
