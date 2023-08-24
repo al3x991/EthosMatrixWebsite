@@ -49,7 +49,7 @@ const Navbar = () => {
             Home
           </a>
           <a href="#" className="hover:text-amber-500">
-            About
+            About Us
           </a>
           <a href="#" className="hover:text-amber-500">
             Portfolio
@@ -58,11 +58,12 @@ const Navbar = () => {
             Gallery
           </a>
           <a href="#" className="hover:text-amber-500">
+            Blog
+          </a>
+          <a href="#" className="hover:text-amber-500">
             Contact
           </a>
-          <button className="quote-btn">
-           <span className=' text-base'>Get Quote</span> 
-          </button>
+          
         </div>
         <div className="lg:hidden flex items-center mr-8">
           {/* <button
@@ -123,13 +124,16 @@ const Navbar = () => {
             Home
           </a>
           <a href="#" className="block px-4 py-2 text-gray-800">
-            About
+            About Us
           </a>
           <a href="#" className="block px-4 py-2 text-gray-800">
             Portfolio
           </a>
           <a href="#" className="block px-4 py-2 text-gray-800">
             Gallery
+          </a>
+          <a href="#" className="block px-4 py-2 text-gray-800">
+            Blog
           </a>
           <a href="#" className="block px-4 py-2 text-gray-800">
             Contact

@@ -401,7 +401,8 @@ const Banner = () => {
         transition={{ duration: 0.6, delay: -0.0, type: 'spring', stiffness: 120 }}
         className="md:flex items-center justify-center py-10  bg-yellow-500"
       > */}
-      <div className="hidden md:block absolute top-1  left-auto lg:left-1/4 mx-auto px-10 items-center justify-center py-10">
+    
+      <div className="hidden  relative  -left-1/2 mx-auto items-center justify-center py-10">
       <div className="text-center lg:flex md:gap-4 align-middle px-5 py-5 md:py-0">
         <p className=" pb-5 text-xl  font-medium md:text-base text-amber-950">Need a consultation? Start planning building your dream by telling us about your project</p>
         <button className="p-3 md:p-1s text-sm bg-slate-100 text-black w-2/4 md:w-52">
@@ -411,6 +412,7 @@ const Banner = () => {
       {/* </motion.div> */}
       </div>
       </div>
+   
   )
 }
 

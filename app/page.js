@@ -8,7 +8,7 @@ import BeforeAfter from './components/BeforeAfter'
 import Welcome from './components/Welcome'
 import FPHome from './components/FPHome'
 import FBHome from './components/FBHome'
-
+import Footer from './components/Footer'
 
 export default function Home() {
   return (
@@ -16,12 +16,13 @@ export default function Home() {
 <Navbar/>
 <Hero/>
 <Banner/>
-<Welcome/>
 <Services/>
 <CTAbanner1/>
 <BeforeAfter />
 <FPHome/>
+<Welcome/>
 <FBHome/>
+<Footer/>
     </main>
   )
 }
