@@ -84,7 +84,7 @@ layout="fill"
 </div>
 <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="flex-grow lg:absolute" style={{ left: '18%' }} transition={{ delay: 0.0 }}>
 <p className=" text-xs md:text-base mb-3">Building Beyond Boundaries</p>
-<h2 className="uppercase text-2xl max-w-xl md:max-w-6xl md:text-4xl font-semibold mb-6">
+<h2 className="capitalize text-2xl max-w-xl md:max-w-6xl md:text-4xl font-semibold mb-6">
 <span className="text-color-primary">Redefining</span> spaces, enriching lives.</h2>
 <motion.p initial={{ opacity: 0 }} className="my-5 max-w-lg md:max-w-3xl text-sm md:text-base mb-12" animate={{ opacity: 1 }} transition={{ delay: 0.2}}>
 From revitalizing existing structures to shaping new horizons, we specialize in turning ambitious visions into tangible reality.

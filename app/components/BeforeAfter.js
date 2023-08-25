@@ -4,11 +4,11 @@ import ReactBeforeSliderComponent  from 'react-before-after-slider-component';
 import 'react-before-after-slider-component/dist/build.css';
 
 
-const FIRST_IMAGE = {
+const SECOND_IMAGE = {
 imageUrl: '/assets/images/poolBefore.webp',
 
 };
-const SECOND_IMAGE = {
+const FIRST_IMAGE = {
 imageUrl: '/assets/images/poolAfter.webp',
 
 };

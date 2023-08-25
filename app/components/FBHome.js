@@ -8,10 +8,10 @@ const FBHome = () => {
 return (
 
 <div className="container py-10  mx-auto">
-<div className="flex flex-col justify-center items-center">
-<h1 className=" text-4xl font-bold relative inline-block uppercase">
+<div className="flex flex-col py-20 justify-center items-center">
+<h1 className=" text-4xl font-bold relative inline-block capitalize">
 Latest <span className='text-color-primary'>News</span>
-<div className="w-16 h-1.5 bg-amber-500 absolute  top-11 left-0 transform -translate-x-0"></div>
+<div className="w-8 h-1.5 bg-amber-500 absolute  top-11 left-0 transform -translate-x-0"></div>
 </h1>
 </div>
 <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-5">

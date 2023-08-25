@@ -4,7 +4,7 @@ const Welcome = () => {
 return (
 <div className="container mx-auto px-12 ">
 <div className="py-32">
-<div className="flex flex-col lg:flex-row justify-center items-center">
+<div className="flex flex-col xl:flex-row justify-center items-center">
 
 <div className="">
 <Image src="/assets/images/construction-excellence.gif " alt="" width={550} height={550} />
