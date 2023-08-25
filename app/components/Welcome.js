@@ -24,7 +24,7 @@ return (
 <div className="flex flex-col xl:flex-row justify-center items-center">
 
 <div className="">
-<Image src="/assets/images/construction-excellence.gif " alt="" width={550} height={550} />
+<Image src="https://i.giphy.com/media/2wtQGyqQzam3jj1gNx/giphy.webp" alt="" width={550} height={550} />
 </div>
 
 <div className='max-w-lg pb-20 xl:pb-0 lg:max-w-3xl xl:px-20'>
