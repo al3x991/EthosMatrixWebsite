@@ -1,9 +1,26 @@
+"use client";
+
+
 import Image from "next/image"
+import { motion } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
 
 const Welcome = () => {
+
+    const [ref, inView] = useInView({
+        triggerOnce: true,
+        threshold: 0.5,
+      });
+      
 return (
 <div className="container mx-auto px-12 ">
-<div className="py-32">
+<motion.div
+      ref={ref}
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : 20 }}
+      transition={{ duration: 0.5 }}
+      className="py-16"
+    >
 <div className="flex flex-col xl:flex-row justify-center items-center">
 
 <div className="">
@@ -24,7 +41,7 @@ Elevating Excellence
 </div>
 
 </div>
-</div>
+</motion.div>
 
 </div>
 )

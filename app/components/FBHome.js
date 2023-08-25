@@ -2,19 +2,29 @@
 
 import Image from "next/image"
 import { motion } from 'framer-motion';
-
+import { useInView } from 'react-intersection-observer';
 
 const FBHome = () => {
+  const [ref, inView] = useInView({
+    triggerOnce: true,
+    threshold: 0.5,
+  });
 return (
 
-<div className="container py-10  mx-auto">
+<motion.div
+      ref={ref}
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : 20 }}
+      transition={{ duration: 0.5 }}
+      className="container py-0 lg:py-10  mx-auto"
+    >
 <div className="flex flex-col py-20 justify-center items-center">
 <h1 className=" text-4xl font-bold relative inline-block capitalize">
 Latest <span className='text-color-primary'>News</span>
 <div className="w-8 h-1.5 bg-amber-500 absolute  top-11 left-0 transform -translate-x-0"></div>
 </h1>
 </div>
-<div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-5">
+<div class="p-5 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-5">
 {/* <!--Card 1--> */}
 <div class="rounded overflow-hidden shadow-lg">
 <div className=" relative h-80">
@@ -68,7 +78,7 @@ Delve into the world of architectural design as we unravel the intricate process
 </div>
 </div>
 </div>
-</div>
+</motion.div>
 
 
 )

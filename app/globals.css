@@ -54,6 +54,25 @@ body {
   background: #F5A018;
   color: #ffffff;
 }
+.border-btn2{
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  font-family: Arial;
+  width: 165px;
+  color: #181818;
+  font-size: 16px;
+ background: transparent;
+ border: 1px solid #F5A018;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.border-btn2:hover {
+  border: none;
+  background: #F5A018;
+  color: #ffffff;
+}
 .quote-btn{
   -webkit-border-radius: 4;
   -moz-border-radius: 4;

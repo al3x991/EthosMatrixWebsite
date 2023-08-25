@@ -13,7 +13,7 @@ const Hero = () => {
   
 
 return (
-<section className="relative flex w-full h-[100vh] md:h-[80vh] flex-1">
+<section className="relative flex w-full h-[100vh] lg:h-[80vh] flex-1">
  
 {/* className="object-cover w-full h-full"  */}
 <Image 
@@ -33,7 +33,7 @@ layout="fill"
  ><div className="absolute inset-0 mt-48 lg:mt-40 flex gap-10  text-white">
 
 <div className="mr-10 pl-10 md:pl-12 lg:pl-10 portrait:md:mt-24  h-2/3 flex flex-row lg:h-full  gap-28 justify-between  mb-40" style={{ marginLeft: '2%' }}>
-<div className="hidden lg:flex  md:ml-40  md:flex-row md:space-x-2 md:transform md:-rotate-90 align-middle  w-1/3">
+<div className="hidden lg:flex  xl:ml-40  md:flex-row md:space-x-2 md:transform md:-rotate-90 align-middle  w-1/3">
 {/* Facebook social link */}
 <a href="#" className="flex flex-row gap-2">
 <svg xmlns="http://www.w3.org/2000/svg" fill="#94a3b8" width="30px" height="30px" viewBox="0 0 32 32">
@@ -84,9 +84,9 @@ layout="fill"
 </div>
 <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="flex-grow lg:absolute" style={{ left: '18%' }} transition={{ delay: 0.0 }}>
 <p className=" text-xs md:text-base mb-3">Building Beyond Boundaries</p>
-<h2 className="capitalize text-2xl max-w-xl md:max-w-6xl md:text-4xl font-semibold mb-6">
+<h2 className="capitalize text-3xl max-w-xl md:max-w-6xl mx-auto xl:mx-0  md:text-5xl xl:text-4xl font-semibold mb-6">
 <span className="text-color-primary">Redefining</span> spaces, enriching lives.</h2>
-<motion.p initial={{ opacity: 0 }} className="my-5 max-w-lg md:max-w-3xl text-sm md:text-base mb-12" animate={{ opacity: 1 }} transition={{ delay: 0.2}}>
+<motion.p initial={{ opacity: 0 }} className="my-5 max-w-lg md:max-w-3xl text-base md:text-1xl xl:text-base mb-12" animate={{ opacity: 1 }} transition={{ delay: 0.2}}>
 From revitalizing existing structures to shaping new horizons, we specialize in turning ambitious visions into tangible reality.
 Explore the art of construction excellence and let your aspirations come to life with our expertise.</motion.p>
 <motion.button initial={{ opacity: 0 }} className="border-btn" animate={{ opacity: 1 }} transition={{ delay: 0.4 }}>Discover More</motion.button>

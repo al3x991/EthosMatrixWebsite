@@ -4,7 +4,7 @@
 import React, { useEffect, useRef } from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
-
+import { useInView } from 'react-intersection-observer';
 
 
 const Services = () => {
@@ -30,6 +30,11 @@ observer.observe(item);
 });
 }
 }, []);
+
+const [ref, inView] = useInView({
+  triggerOnce: true,
+  threshold: 0.5,
+});
 
 const services = [
 {
@@ -65,11 +70,10 @@ text: 'From concept to reality, we specialize in transforming land into thriving
 ];
 
 return (
-<div className="text-center py-32" ref={gridRef}>
-<motion.div className="" 
-initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5 }}>
-<h1 className=" text-4xl font-bold relative inline-block capitalize">
-Our <span className='text-color-primary'>Services</span>
+<div className="text-center py-16" ref={gridRef}>
+  
+<h1 className=" text-3xl  md:text-4xl font-bold relative inline-block capitalize">
+Our <span className=''>Services</span>
 <div className="w-8 h-1.5 bg-amber-500 absolute  top-11 left-0 transform -translate-x-0"></div>
 </h1>
 <div className='py-20 flex items-start justify-center'>
@@ -95,7 +99,7 @@ className=' absolute'
 </div>
 </div>
 
-</motion.div>
+
 </div>
 )
 }

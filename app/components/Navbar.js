@@ -3,6 +3,7 @@
 
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Navbar = () => {
   const [scrolling, setScrolling] = useState(false);
@@ -34,7 +35,7 @@ const Navbar = () => {
         scrolling ? 'shadow-md  bg-white text-black' : 'bg-transparent  text-white'
       }`}
     >
-      <div className="flex flex-wrap items-center justify-between mx-auto py-6 md:px-10 lg:px-52">
+      <div className="flex flex-wrap items-center justify-between mx-auto py-6 md:px-10 xl:px-52">
 
         <div className="flex items-center ml-6">
           <Image
@@ -45,24 +46,24 @@ const Navbar = () => {
           />
         </div>
         <div className="text-base hidden lg:flex items-center space-x-6 nav-link">
-          <a href="#" className="hover:text-amber-500">
+          <Link href="/Undercontruction" className="hover:text-amber-500">
             Home
-          </a>
-          <a href="#" className="hover:text-amber-500">
+          </Link>
+          <Link href="/Undercontruction" className="hover:text-amber-500">
             About Us
-          </a>
-          <a href="#" className="hover:text-amber-500">
+          </Link>
+          <Link href="/Undercontruction" className="hover:text-amber-500">
             Portfolio
-          </a>
-          <a href="#" className="hover:text-amber-500">
+          </Link>
+          <Link href="/Undercontruction" className="hover:text-amber-500">
             Gallery
-          </a>
-          <a href="#" className="hover:text-amber-500">
+          </Link>
+          <Link href="/Undercontruction" className="hover:text-amber-500">
             Blog
-          </a>
-          <a href="#" className="hover:text-amber-500">
+          </Link>
+          <Link href="/Undercontruction" className="hover:text-amber-500">
             Contact
-          </a>
+          </Link>
           
         </div>
         <div className="lg:hidden flex items-center mr-8">
@@ -120,27 +121,25 @@ const Navbar = () => {
             menuOpen ? "translate-x-0 " : "translate-x-full"
           }`}>
           
-          <a href="#" className="block px-4 py-2 text-gray-800">
+          <Link href="/Undercontruction" className="block px-4 py-8 text-2xl text-gray-800">
             Home
-          </a>
-          <a href="#" className="block px-4 py-2 text-gray-800">
+          </Link>
+          <Link href="/Undercontruction" className="block px-4 py-8 text-2xl text-gray-800">
             About Us
-          </a>
-          <a href="#" className="block px-4 py-2 text-gray-800">
+          </Link>
+          <Link href="/Undercontruction" className="block px-4 py-8 text-2xl text-gray-800">
             Portfolio
-          </a>
-          <a href="#" className="block px-4 py-2 text-gray-800">
+          </Link>
+          <Link href="/Undercontruction" className="block px-4 py-8 text-2xl text-gray-800">
             Gallery
-          </a>
-          <a href="#" className="block px-4 py-2 text-gray-800">
+          </Link>
+          <Link href="/Undercontruction" className="block px-4 py-8 text-2xl text-gray-800">
             Blog
-          </a>
-          <a href="#" className="block px-4 py-2 text-gray-800">
+          </Link>
+          <Link href="/Undercontruction" className="block px-4 py-8 text-2xl text-gray-800">
             Contact
-          </a>
-          <button className="quote-btn hidden md:block">
-            Get Quote
-          </button>
+          </Link>
+        
           </div>
         
       )}

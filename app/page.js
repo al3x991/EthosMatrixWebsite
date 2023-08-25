@@ -15,11 +15,11 @@ export default function Home() {
 <Navbar/>
 <Hero/>
 <Banner/>
+<Welcome/>
 <Services/>
 <CTAbanner1/>
 <BeforeAfter />
 <FPHome/>
-<Welcome/>
 <FBHome/>
 <Footer/>
     </main>

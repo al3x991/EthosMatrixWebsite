@@ -2,8 +2,14 @@
 
 import React, { useState } from 'react';
 import Image from 'next/image';
+import { motion } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
 
 const FPHome = () => {
+  const [ref, inView] = useInView({
+    triggerOnce: true,
+    threshold: 0.5,
+  });
 const cardsData = [
 {
 imageSrc: 'chapelhill.webp',
@@ -28,6 +34,7 @@ description: 'We proudly constructed a state-of-the-art engineering lab for a re
 const [hoveredCard, setHoveredCard] = useState(null);
 
 return (
+ 
 <div
 className="flex justify-center items-center  bg-gray-100 relative overflow-hidden"
 style={{
@@ -38,15 +45,22 @@ backgroundPosition: 'center',
 >
 
 <div className="absolute inset-0 bg-black backdrop-brightness-50 opacity-75"></div>
-<div className="container mx-auto px-20 relative z-10 py-10">
+<div className="container mx-auto px-5 lg:px-20 relative z-10 py-16">
 <div className=' ml-5 pt-20 pb-5 text-white'>
-<h1 className=" text-4xl font-bold relative inline-block capitalize">
+<h1 className=" text-3xl lg:text-4xl font-bold relative inline-block capitalize">
 Featured <span className='text-color-primary'>Projects</span>
 <div className="w-8 h-1.5 bg-amber-500 absolute  top-11 left-0 transform -translate-x-0"></div>
 </h1>
 </div>
 <div className="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 pb-20">
 {cardsData.map((card, index) => (
+   <motion.div
+   ref={ref}
+   initial={{ opacity: 0, y: 20 }}
+   animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : 20 }}
+   transition={{ duration: 0.3 }}
+   className=""
+ >
 <div
 key={index}
 className="relative  w-auto p-4 transition duration-300 transform hover:scale-105"
@@ -88,10 +102,12 @@ View More
 ) : null}
 </div>
 </div>
+</motion.div>
 ))}
 </div>
 </div>
 </div>
+
 );
 };
 
