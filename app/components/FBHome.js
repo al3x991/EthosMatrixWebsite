@@ -11,13 +11,7 @@ const FBHome = () => {
   });
 return (
 
-<motion.div
-      ref={ref}
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : 20 }}
-      transition={{ duration: 0.5 }}
-      className="container py-0 lg:py-10  mx-auto"
-    >
+<>
 <div className="flex flex-col py-20 justify-center items-center">
 <h1 className=" text-4xl font-bold relative inline-block capitalize">
 Latest <span className='text-color-primary'>News</span>
@@ -78,7 +72,7 @@ Delve into the world of architectural design as we unravel the intricate process
 </div>
 </div>
 </div>
-</motion.div>
+</>
 
 
 )
