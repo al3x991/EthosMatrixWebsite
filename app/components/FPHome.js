@@ -54,13 +54,7 @@ Featured <span className='text-color-primary'>Projects</span>
 </div>
 <div className="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 pb-20">
 {cardsData.map((card, index) => (
-   <motion.div
-   ref={ref}
-   initial={{ opacity: 0, y: 20 }}
-   animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : 20 }}
-   transition={{ duration: 0.3 }}
-   className=""
- >
+ 
 <div
 key={index}
 className="relative  w-auto p-4 transition duration-300 transform hover:scale-105"
@@ -102,7 +96,7 @@ View More
 ) : null}
 </div>
 </div>
-</motion.div>
+
 ))}
 </div>
 </div>
