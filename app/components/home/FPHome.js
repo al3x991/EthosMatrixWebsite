@@ -65,8 +65,9 @@ onMouseLeave={() => setHoveredCard(null)}
 <Image
 src={`/assets/images/${card.imageSrc}`}
 alt={card.title}
-layout="fill"
-objectFit="cover"
+fill
+sizes={'(max-width: 1250px) 100vw, 1250px'}
+style={{objectFit:"cover"}}
 className=' '
 />
 <div className={`absolute inset-0 flex flex-col justify-center  text-white text-center transition-opacity duration-300 ${

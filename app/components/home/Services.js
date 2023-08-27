@@ -85,6 +85,7 @@ Our <span className=''>Services</span>
 <Image 
 src={`/assets/images/${service.icon}`}
 width={45}
+alt='icon'
 height={45}
 className=' absolute'
 />

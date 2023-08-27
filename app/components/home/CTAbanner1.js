@@ -27,10 +27,10 @@ return (
 src="/assets/images/layout-bg.webp"
 blurDataURL="data:..."
 placeholder="blur"
-sizes="100vw"
+sizes={'(max-width: 1250px) 100vw, 1250px'}
 alt="Hero-Background" 
-objectFit="cover"
-layout="fill"
+style={{objectFit:"cover"}}
+fill
 />
 <div className="absolute inset-0 bg-black backdrop-brightness-50 opacity-75"></div>
 <div className="flex  items-center xl:items-start flex-row gap-4 py-10 ">

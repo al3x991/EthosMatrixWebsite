@@ -46,10 +46,10 @@ const Navbar = () => {
           />
         </div>
         <div className="text-base hidden lg:flex items-center space-x-6 nav-link">
-          <Link href="/Undercontruction" className="hover:text-amber-500">
+          <Link href="/" className="hover:text-amber-500">
             Home
           </Link>
-          <Link href="/Undercontruction" className="hover:text-amber-500">
+          <Link href="/about" className="hover:text-amber-500">
             About Us
           </Link>
           <Link href="/Undercontruction" className="hover:text-amber-500">
@@ -121,10 +121,10 @@ const Navbar = () => {
             menuOpen ? "translate-x-0 " : "translate-x-full"
           }`}>
           
-          <Link href="/Undercontruction" className="block px-4 py-8 text-2xl text-gray-800">
+          <Link href="/" className="block px-4 py-8 text-2xl text-gray-800">
             Home
           </Link>
-          <Link href="/Undercontruction" className="block px-4 py-8 text-2xl text-gray-800">
+          <Link href="/about" className="block px-4 py-8 text-2xl text-gray-800">
             About Us
           </Link>
           <Link href="/Undercontruction" className="block px-4 py-8 text-2xl text-gray-800">
