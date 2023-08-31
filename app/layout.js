@@ -9,10 +9,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 const inter = Inter({ subsets: ['latin'] })
 
 
-export const metadata = {
-  title: 'EthosMatrix',
-  description: 'Embark on a journey of transformation with EthosMatrix. Our passion lies in crafting extraordinary spaces that stand as testaments to creativity, innovation, and precision.',
-}
+
 
 export default function RootLayout({ children }) {
   return (
