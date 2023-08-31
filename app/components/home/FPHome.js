@@ -12,7 +12,7 @@ const FPHome = () => {
   });
 const cardsData = [
 {
-imageSrc: 'chapelhill.webp',
+imageSrc: 'complete00.webp',
 title: 'Chapel Hill',
 subtitle: 'Construction - Office Building',
 description: 'Discover our noteworthy office building project, where design brilliance meets construction expertise. A collaborative effort that delivers a modern, functional space, tailored to our client`s vision',

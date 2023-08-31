@@ -38,12 +38,17 @@ const Navbar = () => {
       <div className="flex flex-wrap items-center justify-between mx-auto py-6 md:px-10 xl:px-52">
 
         <div className="flex items-center ml-6">
+        <Link href="/">
           <Image
             src={scrolling  ? '/assets/images/logoB.svg' : '/assets/images/logoW.svg'}
             alt="Logo"
+            placeholder="blur"
+            blurDataURL= " "
             width={140}
             height={140}
+            priority
           />
+           </Link>
         </div>
         <div className="text-base hidden lg:flex items-center space-x-6 nav-link">
           <Link href="/" className="hover:text-amber-500">
@@ -55,7 +60,7 @@ const Navbar = () => {
           <Link href="/Undercontruction" className="hover:text-amber-500">
             Portfolio
           </Link>
-          <Link href="/Undercontruction" className="hover:text-amber-500">
+          <Link href="/gallery" className="hover:text-amber-500">
             Gallery
           </Link>
           <Link href="/Undercontruction" className="hover:text-amber-500">
@@ -121,22 +126,22 @@ const Navbar = () => {
             menuOpen ? "translate-x-0 " : "translate-x-full"
           }`}>
           
-          <Link href="/" className="block px-4 py-8 text-2xl text-gray-800">
+          <Link href="/" className="block px-4 py-8 text-xl text-gray-800">
             Home
           </Link>
-          <Link href="/about" className="block px-4 py-8 text-2xl text-gray-800">
+          <Link href="/about" className="block px-4 py-8 text-xl text-gray-800">
             About Us
           </Link>
-          <Link href="/Undercontruction" className="block px-4 py-8 text-2xl text-gray-800">
+          <Link href="/Undercontruction" className="block px-4 py-8 text-xl text-gray-800">
             Portfolio
           </Link>
-          <Link href="/Undercontruction" className="block px-4 py-8 text-2xl text-gray-800">
+          <Link href="/gallery" className="block px-4 py-8 text-xl text-gray-800">
             Gallery
           </Link>
-          <Link href="/Undercontruction" className="block px-4 py-8 text-2xl text-gray-800">
+          <Link href="/Undercontruction" className="block px-4 py-8 text-xl text-gray-800">
             Blog
           </Link>
-          <Link href="/Undercontruction" className="block px-4 py-8 text-2xl text-gray-800">
+          <Link href="/Undercontruction" className="block px-4 py-8 text-xl text-gray-800">
             Contact
           </Link>
         

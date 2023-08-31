@@ -18,12 +18,13 @@ return (
 {/* className="object-cover w-full h-full"  */}
 <Image 
 src="/assets/images/home1.webp"
-blurDataURL="data:..."
+blurDataURL=" "
 placeholder="blur"
 alt="Home Background" 
 style={{objectFit:"cover"}}
 fill
 sizes={'(max-width: 1250px) 100vw, 1250px'}
+priority
 />
 
 <div className="absolute inset-0 bg-black backdrop-brightness-50 opacity-75"></div>
