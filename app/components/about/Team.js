@@ -50,7 +50,7 @@ return (
 <div className="text-center py-16">
 
 <h1 className=" text-3xl  md:text-4xl font-bold relative inline-block capitalize">
-Our Executive<span className='text-amber-500'>&nbsp;Team</span>
+Our Executive<span className=''>&nbsp;Team</span>
 <div className="w-8 h-1.5 bg-amber-500 absolute  top-11 left-0 transform -translate-x-0"></div>
 </h1>
 <div className='py-20'>
