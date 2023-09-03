@@ -46,6 +46,7 @@ const Navbar = () => {
             blurDataURL= " "
             width={140}
             height={140}
+            as="image"
             priority
           />
            </Link>
@@ -57,8 +58,8 @@ const Navbar = () => {
           <Link href="/about" className="hover:text-amber-500">
             About Us
           </Link>
-          <Link href="/Undercontruction" className="hover:text-amber-500">
-            Portfolio
+          <Link href="/projects" className="hover:text-amber-500">
+            Projects
           </Link>
           <Link href="/gallery" className="hover:text-amber-500">
             Gallery
@@ -132,8 +133,8 @@ const Navbar = () => {
           <Link href="/about" className="block px-4 py-8 text-xl text-gray-800">
             About Us
           </Link>
-          <Link href="/Undercontruction" className="block px-4 py-8 text-xl text-gray-800">
-            Portfolio
+          <Link href="/projects" className="block px-4 py-8 text-xl text-gray-800">
+            Projects
           </Link>
           <Link href="/gallery" className="block px-4 py-8 text-xl text-gray-800">
             Gallery

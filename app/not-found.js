@@ -6,7 +6,7 @@ export default function NotFound() {
     <div className=" flex flex-col items-center justify-center pt-20">
     <img 
 src="https://i.giphy.com/media/PvcOp93XdMoQ6S6IiV/giphy.webp"
-alt="Hero-Background" 
+alt="404 Not Found" 
 width={650}
 height={650}
 />

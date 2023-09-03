@@ -2,7 +2,7 @@ import ImageSlider from './ImageSlider';
 import Image from 'next/image';
 import { useState } from "react";
 import Lightbox from '../Lightbox';
-import slide2 from '@/app/data/gallery2';
+import slide2 from '../../data/gallery2';
 import { motion
  } from 'framer-motion';
 const ImageGallery = () => {
@@ -130,7 +130,7 @@ className={`flex flex-row relative md:mx-auto lg:mx-0 w-full h-[300px] md:w-[300
 alt={`Image ${imageIndex + 1}`} 
 style={{objectFit:"cover"}}
 fill
-blurDataURL={image}
+blurDataURL= "data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
 placeholder="blur"
 sizes={'(max-width: 1250px) 100vw, 1250px'}
 priority />
@@ -160,7 +160,7 @@ className={`rounded mx-auto lg:mx-0 cursor-pointer relative overflow-hidden w-fu
 alt={`Image ${imageIndex + 1}`} 
 style={{objectFit:"cover"}}
 fill
-blurDataURL={image}
+blurDataURL="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
 onClick={()=>handleClick(image, imageIndex)}
 placeholder="blur"
 sizes={'(max-width: 1250px) 100vw, 1250px'}/>

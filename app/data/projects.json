@@ -1,0 +1,100 @@
+{
+    "projects": [
+      {
+        "slug": "chapel-hill",
+        "title": "Chapel Hill Office Building",
+        "category": "Construction",
+        "type": "Commercial",
+        "client": "Chapel Hill Corporation",
+        "scopes": ["Architecture", "Electrical", "Interior", "Civil Engineering", "Sustainability", "Project Management"],
+        "location": "Lekki Phase 1, Lagos",
+        "date": "2022",
+        "why": "A modern corporate office building for Chapel Hill Corporation.",
+        "description": "Our team was entrusted with the design and construction of the Chapel Hill Office Building, a contemporary corporate space located in the vibrant Lekki Phase 1 area of Lagos. This project involved a range of scopes, including architectural design, electrical systems, interior layout, civil engineering, sustainability practices, and project management. The result is an iconic structure that reflects modern corporate values and provides an efficient, eco-friendly, and comfortable workspace for Chapel Hill Corporation.",
+        "shortDescription": "Designed and constructed a modern corporate office building in Lekki Phase 1 for Chapel Hill Corporation.",
+        "coverImage": "/assets/images/projects/chapel hill/cover.webp",
+        "images": [
+          "/images/project1/image1.jpg",
+          "/images/project1/image2.jpg",
+          "/images/project1/image3.jpg",
+          "/images/project1/image4.jpg"
+        ]
+      },
+      {
+        "slug": "victoria-island-house-renovation",
+        "title": "House Renovation V.I",
+        "category": "Renovation",
+        "type": "Residential",
+        "client": "Private Client",
+        "scopes": ["Interior", "Renovation", "Architecture", "Landscaping", "Electrical", "Project Management"],
+        "location": "Victoria Island, Lagos",
+        "date": "2023",
+        "why": "A complete renovation of a luxurious residence in Victoria Island.",
+        "description": "Our team undertook the comprehensive renovation of a private residence in the upscale area of Victoria Island, Lagos. This multifaceted project included interior design, renovation work, architectural enhancements, landscaping, electrical system upgrades, and meticulous project management. The result is a stunning and modern living space that perfectly complements the client's lifestyle and preferences.",
+        "shortDescription": "Transformed a luxurious Victoria Island residence with extensive renovation work and modern design elements.",
+        "coverImage": "/assets/images/projects/renovation_VI_01/cover.webp",
+        "images": [
+          "/images/project2/image1.jpg",
+          "/images/project2/image2.jpg",
+          "/images/project2/image3.jpg",
+          "/images/project2/image4.jpg"
+        ]
+      },
+      {
+        "slug": "elizade-university-hostel-and-lab",
+        "title": "University Hostel and Science Lab",
+        "category": "Construction",
+        "type": "Education",
+        "client": "Elizade University",
+        "scopes": ["Construction", "Architecture", "Engineering", "Project Management", "Interior", "Sustainability"],
+        "location": "Ondo State, Nigeria",
+        "date": "2021",
+        "why": "Building a state-of-the-art hostel and science complex for Elizade University.",
+        "description": "Our team was entrusted with the construction of a hostel and science complex for Elizade University in Ondo State. This project involved a wide range of scopes, including construction, architectural design, engineering, project management, interior design, and a strong focus on sustainability. The complex now stands as a modern educational facility, providing comfortable accommodation and cutting-edge science labs for students.",
+        "shortDescription": "Constructed a state-of-the-art hostel and science complex for Elizade University in Ondo State.",
+        "coverImage": "/assets/images/projects/elizade university/cover.webp",
+        "images": [
+          "/images/project3/image1.jpg",
+          "/images/project3/image2.jpg",
+          "/images/project3/image3.jpg"
+        ]
+      },
+      {
+        "slug": "nfl-Renovation",
+        "title": "NFL Renovation",
+        "category": "Renovation",
+        "type": "Commercial",
+        "client": "NFL",
+        "scopes": ["Construction", "Architecture", "Engineering", "Project Management", "Interior", "Sustainability"],
+        "location": "Lekki Phase I, Nigeria",
+        "date": "2023",
+        "why": "Building a state-of-the-art hostel and science complex for Elizade University.",
+        "description": "Our team was entrusted with the construction of a hostel and science complex for Elizade University in Ondo State. This project involved a wide range of scopes, including construction, architectural design, engineering, project management, interior design, and a strong focus on sustainability. The complex now stands as a modern educational facility, providing comfortable accommodation and cutting-edge science labs for students.",
+        "shortDescription": "Constructed a state-of-the-art hostel and science complex for Elizade University in Ondo State.",
+        "coverImage": "/assets/images/projects/NFL renovation/cover.webp",
+        "images": [
+          "/images/project3/image1.jpg",
+          "/images/project3/image2.jpg",
+          "/images/project3/image3.jpg"
+        ]
+      },
+      {
+        "slug": "farm-fencing-project",
+        "title": "Farm Land Fencing Project",
+        "category": "Construction",
+        "client": "FarmPro Agribusiness",
+        "scopes": ["Fencing", "Agricultural Engineering", "Project Management", "Land Surveying", "Security", "Environmental Impact Assessment"],
+        "location": "Ondo State, Nigeria",
+        "date": "2020",
+        "why": "Fencing a 14km farm land for enhanced security and agricultural management.",
+        "description": "Our team successfully completed the extensive fencing project for FarmPro Agribusiness in Ondo State. This complex endeavor included fencing design, agricultural engineering, project management, land surveying, security measures, and an environmental impact assessment. The 14km-long fence provides enhanced security for the farm and supports efficient agricultural operations, contributing to sustainable food production.",
+        "shortDescription": "Fenced a 14km farm land for enhanced security and efficient agricultural management.",
+        "coverImage": "/assets/images/projects/ondo farm fencing/cover.webp",
+        "images": [
+          "/images/project4/image1.jpg",
+          "/images/project4/image2.jpg",
+          "/images/project4/image3.jpg"
+        ]
+      }
+    ]
+  }

@@ -33,8 +33,9 @@ src={images[currentIndex]}
 alt={`Image ${currentIndex + 1}`}
 style={{objectFit:"cover"}}
 fill
-blurDataURL={images[currentIndex]}
+blurDataURL="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
 placeholder="blur"
+as="image"
 priority
 />
 <div className="absolute inset-0 flex items-center justify-between">
