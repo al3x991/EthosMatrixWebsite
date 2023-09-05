@@ -59,7 +59,7 @@ className="w-full h-48 object-cover" />
 };
 
 return (
-<div className='container  py-16 max-w-[1350px] mx-auto px-10'>
+<div className='container  py-16 max-w-screen-lg mx-auto px-10'>
 {/* Category Filter */}
 <div className="mb-8 mt-10">
 <button onClick={() => setCategoryFilter('All')} className={categoryFilter === 'All' ? 'bg-amber-500 text-white px-4 py-2 mr-2 rounded-lg' : 'bg-transparent border border-amber-500   text-black px-4 py-2 mr-2 rounded-lg'}>

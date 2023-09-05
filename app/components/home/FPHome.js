@@ -13,8 +13,8 @@ const FPHome = () => {
 const cardsData = [
 {
 imageSrc: 'complete00.webp',
-title: 'Chapel Hill',
-subtitle: 'Construction - Office Building',
+title: 'Chapel Hill - Office',
+subtitle: 'Architectural Design & Project Management',
 description: 'Discover our noteworthy office building project, where design brilliance meets construction expertise. A collaborative effort that delivers a modern, functional space, tailored to our client`s vision',
 },
 {
@@ -25,8 +25,8 @@ description: 'Revived a Lekki residence with meticulous reconstruction, blending
 },
 {
 imageSrc: 'lab1.webp',
-title: 'Engineering Lab',
-subtitle: 'Construction - School Lab',
+title: 'University Hostel',
+subtitle: 'Construction & Project Management',
 description: 'We proudly constructed a state-of-the-art engineering lab for a renowned university in Ondo State. This achievement showcases our dedication to creating advanced learning spaces that inspire and support academic growth.',
 },
 ];

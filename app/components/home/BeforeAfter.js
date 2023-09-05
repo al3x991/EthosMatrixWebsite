@@ -10,7 +10,7 @@ imageUrl: '/assets/images/poolBefore.webp',
 
 };
 const FIRST_IMAGE = {
-imageUrl: '/assets/images/poolAfter.webp',
+imageUrl: '/assets/images/poolAfter00.webp',
 
 };
 

@@ -3,6 +3,8 @@ import Image from 'next/image';
 import { useState } from "react";
 import Lightbox from '../Lightbox';
 import slide2 from '../../data/gallery2';
+import gallery3 from '../../data/gallery3';
+import './galleryLightbox.css';
 import { motion
  } from 'framer-motion';
 const ImageGallery = () => {
@@ -16,7 +18,7 @@ images: [
 layout: 'grid',
 },
 {
-title: 'Events & Awards',
+title: 'Events',
 subheading: 'Lagos Real Estate Event',
 images: [
 '/assets/images/gallery/1.webp',
@@ -98,9 +100,25 @@ const handelRotationLeft = () => {
     setClickedImg(newItem);
     setCurrentIndex(newIndex);
   };
+  const [selectedImage, setSelectedImage] = useState(null);
+
+  const openLightbox = (image) => {
+    setSelectedImage(image);
+  };
+
+  const closeLightbox = () => {
+    setSelectedImage(null);
+  };
+
+  const handleOverlayClick = (e) => {
+    if (e.target.classList.contains('lightbox-overlay')) {
+      closeLightbox();
+    }
+  };
+
 
 return (
-<div className="min-h-screen py-8 mx-auto container px-6">
+<div className="min-h-screen py-8 mx-auto container max-w-screen-md xl:max-w-screen-lg 2xl:max-w-screen-xl px-6">
 <div className="max-w-[1320px] mx-auto">
 <div className="flex flex-col xl:flex-row  justify-between gap-x-10 xl:gap-x-32">
 <div className="">
@@ -118,24 +136,43 @@ return (
 <section className="mb-10">
 <div className="text-center xl:text-left mb-4">
 <h2 className="text-2xl font-semibold">{sections[1].title}</h2>
-<p className="text-gray-600">{sections[1].subheading}</p>
+<p className="text-gray-600"></p>
 </div>
 <div className="flex flex-wrap gap-4  ">
-{sections[1].images.map((image, imageIndex) => (
+{gallery3.map((data) => (
 <div
-key={imageIndex}
-className={`flex flex-row relative md:mx-auto lg:mx-0 w-full h-[300px] md:w-[300px] md:h-[280px] lg:w-[300px] lg:h-[280px] xl:w-[150px] xl:h-[150px] 2xl:w-[200px] 2xl:h-[200px] rounded overflow-hidden`}
+key={data.id}
+className={`flex hover:cursor-pointer flex-row relative md:mx-auto lg:mx-0 w-full h-[300px] md:w-[300px] md:h-[280px] lg:w-[300px] lg:h-[280px] xl:w-[150px] xl:h-[150px] 2xl:w-[200px] 2xl:h-[200px] rounded overflow-hidden`}
 >
-<Image src={image} 
-alt={`Image ${imageIndex + 1}`} 
+<Image src={data.image} 
+alt={`Image ${data.id + 0}`} 
 style={{objectFit:"cover"}}
 fill
 blurDataURL= "data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
 placeholder="blur"
+onClick={() => openLightbox(data)}
 sizes={'(max-width: 1250px) 100vw, 1250px'}
 priority />
 </div>
 ))}
+{selectedImage && (
+  <div className= '' onClick={handleOverlayClick}>
+        <div className="lightbox bg-white">
+          <div className='relative h-[60%] w-[80%] max-w-[80%] max-h-[80%] xl:h-[60%] xl:w-[60%]'>
+          <Image 
+          src={selectedImage.image} 
+          fill 
+          blurDataURL="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+          placeholder="blur"
+          style={{objectFit:"contain"}} 
+          className='w-full h-full' 
+           alt={`Image ${selectedImage.id}`} />
+          </div>
+          <p className=' text-center text-white  -mt-10  xl:mt-5 justify-center text-base p-2 xl:p-8'>{selectedImage.text}</p>
+          <button onClick={closeLightbox}>Close</button>
+        </div>
+        </div>
+      )}
 </div>
 </section>
 </div>

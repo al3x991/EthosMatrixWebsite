@@ -18,7 +18,7 @@ return (
 {/* className="object-cover w-full h-full"  */}
 <Image 
 src={imgSource}
-blurDataURL="data:..."
+blurDataURL="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
 placeholder="blur"
 alt="Hero-Background" 
 style={{objectFit:"cover"}}
@@ -31,7 +31,7 @@ priority
    <div>
     <div className="inset-0 absolute  top-[60%]  left-1/2 text-white" style={{ transform: 'translate(-50%, -50%)' }}>
 <div className="flex flex-col gap-3 justify-center text-center">
-<h2 className="capitalize text-3xl max-w-xl md:max-w-6xl mx-auto xl:mx-0  md:text-3xl xl:text-3xl font-semibold mb-6">
+<h2 className="capitalize text-3xl max-w-xl md:max-w-6xl mx-auto xl:mx-0 tracking-wider md:text-3xl xl:text-3xl font-semibold mb-6">
 {title}</h2>
 <small>Home / <b className=" text-amber-500">{curL}</b></small>
 </div>
