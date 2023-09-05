@@ -29,7 +29,7 @@ setProjectsToShow((prevCount) => prevCount + 10);
 const renderProjectCards = () => {
 return filteredProjects.slice(0, projectsToShow).map((project) => (
     // <Link key={project.slug} href={`/projects/${project.slug}`}></Link>
-<Link key={project.slug} href="#">
+<Link key={project.slug} href={`./projects/${project.slug}`}>
 <div className="project-card border rounded-lg overflow-hidden shadow-lg">
 <div className='relative w-full h-48'>
 <Image 
