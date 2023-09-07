@@ -13,12 +13,9 @@
 }
 .overlay .imageActive {
   display: block;
-  max-width: 60%;
-  max-height: 80%;
-  border: 5px solid #ffffff;
+  
   border-radius: 5px;
   margin: 60px auto;
-  box-shadow: 3px 5px 7px rgba(0, 0, 0, 0.5);
 }
 .overlay > span {
   position: absolute;

@@ -13,14 +13,14 @@ const Lightbox = ({clickedImg, handleRotationRight, handelRotationLeft, setClick
 return(
     <>
     <div className="overlay dismiss" onClick={handleClick}>
-      <div className="relative w-[300px] h-[270px] md:w-[70vw] md:h-[60vw] xl:w-[40vw] xl:h-[60vh] imageActive">
+      <div className="relative w-[300px] h-[270px] md:w-[70vw] md:h-[60vh] xl:w-[40vw] xl:h-[60vh] imageActive">
     <Image 
 src={clickedImg}
-alt="About Image"
-blurDataURL="data:..."
+alt="full-image"
+blurDataURL="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
 placeholder="blur"
 fill
-style={{objectFit:"cover"}}
+style={{objectFit:"contain"}}
 sizes={'(max-width: 1250px) 100vw, 1250px'}
 className=""
 />

@@ -29,8 +29,8 @@ setProjectsToShow((prevCount) => prevCount + 10);
 const renderProjectCards = () => {
 return filteredProjects.slice(0, projectsToShow).map((project) => (
     // <Link key={project.slug} href={`/projects/${project.slug}`}></Link>
-<Link key={project.slug} href={`./projects/${project.slug}`}>
-<div className="project-card border rounded-lg overflow-hidden shadow-lg">
+<Link key={project.slug} className='transition-transform transform md:hover:cursor-pointer  hover:scale-[1.03]' href={`./projects/${project.slug}`}>
+<div className="project-card border rounded-lg overflow-hidden shadow-lg h-[410px] min-h-[410px]">
 <div className='relative w-full h-48'>
 <Image 
 src={project.coverImage} 
@@ -59,7 +59,7 @@ className="w-full h-48 object-cover" />
 };
 
 return (
-<div className='container  py-16 max-w-screen-lg mx-auto px-10'>
+<div className='container  py-16 max-w-screen-lg xl:max-w-screen-lg  2xl:max-w-screen-xl mx-auto px-10'>
 {/* Category Filter */}
 <div className="mb-8 mt-10">
 <button onClick={() => setCategoryFilter('All')} className={categoryFilter === 'All' ? 'bg-amber-500 text-white px-4 py-2 mr-2 rounded-lg' : 'bg-transparent border border-amber-500   text-black px-4 py-2 mr-2 rounded-lg'}>
@@ -80,7 +80,7 @@ Real Estate
 </div>
 
 {/* Project Cards */}
-<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-4  xl:gap-x-16">
+<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-4  xl:gap-x-8">
 {renderProjectCards()}
 </div>
 

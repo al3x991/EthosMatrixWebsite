@@ -18,7 +18,8 @@
           "/assets/images/projects/chapel hill/office02.webp",
           "/assets/images/projects/chapel hill/office03.webp",
           "/assets/images/projects/chapel hill/office04.webp"
-        ]
+        ],
+        "content": " "
       },
       {
         "slug": "victoria-island-house-renovation",
@@ -35,10 +36,11 @@
         "coverImage": "/assets/images/projects/renovation_VI_01/cover.webp",
         "images": [
           "/assets/images/projects/renovation_VI_01/house01.webp",
-          "/assets/images/projects/renovation_VI_01/house02.webp",
+          "/assets/images/projects/renovation_VI_01/house020.webp",
           "/assets/images/projects/renovation_VI_01/house03.webp",
           "/assets/images/projects/renovation_VI_01/house04.webp"
-        ]
+        ],
+        "content": " "
       },
       {
         "slug": "elizade-university-hostel",
@@ -58,8 +60,49 @@
           "/assets/images/projects/elizade university/maw02.webp",
           "/assets/images/projects/elizade university/maw03.webp",
           "/assets/images/projects/elizade university/maw04.webp"
-        ]
+        ],
+        "content": " "
       },
+      {
+        "slug": "The-Venue",
+        "title": "The Venue",
+        "category": "Architectural Design",
+        "client": "N/A",
+        "scopes": ["Floor Plan", "Agricultural Engineering", "Project Management", "Land Surveying", "Security", "Environmental Impact Assessment"],
+        "location": "Adeola Odeku, VI, Lagos",
+        "date": "2021",
+        "why": "Design",
+        "description": "We are thrilled to present our visionary architectural design for a mixed living area. This project is a bold and innovative design that reimagines urban living and shopping in the heart of Lagos. Our design represents a cutting-edge vision for a dynamic and vibrant urban mixed living space.",
+        "shortDescription": "Presenting the visionary Mixed living area, a modern urban space in Lagos. This design reflects our commitment to innovative urban development.",
+        "coverImage": "/assets/images/design/The Venue/86.webp",
+        "images": [
+              "/assets/images/design/The Venue/0.webp",
+            "/assets/images/design/The Venue/2.webp",
+              "/assets/images/design/The Venue/4.webp"
+        ],
+        "content": [
+          {
+              "url": "/assets/images/design/The Venue/0.webp",
+              "description": "Image 1 description"
+          },
+          {
+              "url": "/assets/images/design/The Venue/2.webp",
+              "description": "Image 2 description"
+          },
+          {
+              "url": "/assets/images/design/The Venue/4.webp",
+              "description": "Image 3 description"
+          },
+          {
+              "url": "/assets/images/design/The Venue/31.webp",
+              "description": "Image 4 description"
+          },
+          {
+              "url": "/assets/images/design/The Venue/33.webp",
+              "description": "Image 5 description"
+          }
+      ]
+    },
       {
         "slug": "elizade-university-science-lab",
         "title": "University Science Lab",
@@ -78,7 +121,8 @@
           "/assets/images/projects/elizade lab/maw02.webp",
           "/assets/images/projects/elizade lab/maw03.webp",
           "/assets/images/projects/elizade lab/maw04.webp"
-        ]
+        ],
+        "content": " "
       },
       {
         "slug": "GRA-Ikeja-House-Renovation",
@@ -100,7 +144,8 @@
           "/assets/images/projects/NFL renovation/nfl04.webp",
           "/assets/images/projects/NFL renovation/nfl05.webp",
           "/assets/images/projects/NFL renovation/nfl06.webp"
-        ]
+        ],
+        "content": " "
       },
       {
         "slug": "farm-fencing-project",
@@ -121,7 +166,8 @@
           "/assets/images/projects/ondo farm fencing/fence04.webp",
           "/assets/images/projects/ondo farm fencing/fence05.webp",
           "/assets/images/projects/ondo farm fencing/fence06.webp"
-        ]
+        ],
+        "content": " "
       }
     ]
   }
