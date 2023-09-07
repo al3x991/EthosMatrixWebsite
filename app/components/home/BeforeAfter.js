@@ -6,11 +6,11 @@ import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 
 const SECOND_IMAGE = {
-imageUrl: '/assets/images/poolBefore.webp',
+imageUrl: '/assets/images/poolbeforeFixed.webp',
 
 };
 const FIRST_IMAGE = {
-imageUrl: '/assets/images/poolAfter00.webp',
+imageUrl: '/assets/images/poolafterFixed.webp',
 
 };
 
