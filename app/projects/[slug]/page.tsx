@@ -14,11 +14,10 @@ import { FaCheck } from "react-icons/fa";
 interface PageProps {
     params: {
       slug: string;
-    };
-    Icon: JSX.Element;
+    }
   }
 
-const ProjectPage: FC<PageProps> =  ({ params, Icon }) => {
+const ProjectPage: FC<PageProps> =  ({ params }) => {
    
     // Check if slug is undefined or null
     if (!params) {
