@@ -118,10 +118,12 @@ const handelRotationLeft = () => {
 
 
 return (
-<div className="min-h-screen py-8 mx-auto container max-w-screen-md xl:max-w-screen-lg 2xl:max-w-screen-xl px-6">
-<div className="max-w-[1320px] mx-auto">
-<div className="flex flex-col xl:flex-row  justify-between gap-x-10 xl:gap-x-32">
-<div className="">
+  <div className='container'>
+<div className="min-h-screen mx-auto  ">
+<div className=" mx-auto">
+{/* <div className="flex flex-col xl:flex-row  justify-between gap-x-10 xl:gap-x-32"> */}
+<div className="max-w-screen-xl ml-[25px] sm:ml-[25px]  md:ml-[50px] lg:ml-[150px] xl:ml-[150px] 2xl:ml-[250px]">
+{/* <div className="">
 <section className="mb-10">
 <div className="text-center xl:text-left mb-4">
 <h2 className="text-2xl font-semibold">{sections[0].title}</h2>
@@ -131,22 +133,22 @@ return (
 <ImageSlider />
 </div>
 </section>
-</div>
-<div className=" ">
+</div> */}
+<div className=" p-4">
 <section className="mb-10">
 <div className="text-center xl:text-left mb-4">
 <h2 className="text-2xl font-semibold">{sections[1].title}</h2>
 <p className="text-gray-600"></p>
 </div>
-<div className="flex flex-wrap gap-4  ">
+<div className="flex flex-row flex-wrap gap-3  ">
 {gallery3.map((data) => (
 <div
 key={data.id}
-className={`flex hover:cursor-pointer flex-row relative md:mx-auto lg:mx-0 w-full h-[300px] md:w-[300px] md:h-[280px] lg:w-[300px] lg:h-[280px] xl:w-[150px] xl:h-[150px] 2xl:w-[200px] 2xl:h-[200px] rounded overflow-hidden`}
+className={` hover:cursor-pointer relative  w-full max-w-[320px] h-[210px] rounded `}
 >
 <Image src={data.image} 
 alt={`Image ${data.id + 0}`} 
-style={{objectFit:"cover"}}
+style={{objectFit:"fit"}}
 fill
 blurDataURL= "data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
 placeholder="blur"
@@ -177,7 +179,7 @@ priority />
 </section>
 </div>
 </div>
-<section className="mt-10 mb-10">
+{/* <section className="mt-10 mb-10">
 <div className="text-center mb-4">
 <h2 className="text-2xl font-semibold">{sections[2].title}</h2>
 <p className="text-gray-600">{sections[2].subheading}</p>
@@ -205,7 +207,8 @@ sizes={'(max-width: 1250px) 100vw, 1250px'}/>
 ))}
 {clickedImg && <Lightbox clickedImg={clickedImg} handleRotationRight={handleRotationRight} setClickedImg={setClickedImg} handelRotationLeft={handelRotationLeft}/>}
 </div>
-</section>
+</section> */}
+</div>
 </div>
 </div>
 );
