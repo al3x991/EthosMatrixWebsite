@@ -150,7 +150,7 @@ const handelRotationLeft2 = () => {
       <div className=" bg-white  p-6">
     <div className='py-4 mr-5 relative  xl:left-0 h-[300px] w-full  xl:max-w-[650px]  xl:w-[60%] mb-12'>
              <Image 
-          src={project.coverImage}
+          src={project.project_image}
           fill 
           blurDataURL="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
           placeholder="blur"
@@ -211,7 +211,7 @@ const handelRotationLeft2 = () => {
 
 <div className=''>
 <div className='p-4'>
-  <h2 className=' text-base font-semibold text-black text-bold'>Men at Work - <span className=' font-medium'>Building to last</span></h2>
+  <h2 className=' text-base font-semibold text-black text-bold'>{project.category === "Architectural Design"  ? 'Project Gallery -' : 'Men at Work -'  } <span className=' font-medium'>{project.category === "Architectural Design"  ? ' Crafting Dreams' : ' Turning Visions into Reality'  }</span></h2>
   </div>
 <div className="grid grid-cols-1 md:grid-cols-3 2xl:grid-cols-4 gap-2">
           {project.content === " " ?

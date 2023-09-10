@@ -10,9 +10,10 @@
         "location": "Ikoyi, Lagos",
         "date": "2022",
         "why": "A modern corporate office building for Chapel Hill Corporation.",
-        "description": "Our team was entrusted with the design and construction of the Chapel Hill Office Building, a contemporary corporate space located in the vibrant Ikoyi area of Lagos. This project involved a range of scopes, including architectural design, electrical systems, interior layout, civil engineering, sustainability practices, and project management. The result is an iconic structure that reflects modern corporate values and provides an efficient, eco-friendly, and comfortable workspace for Chapel Hill Corporation.",
-        "shortDescription": "Designed and constructed a modern corporate office building in Ikoyi for Chapel Hill Corporation.",
+        "description": "Our team was entrusted with the design of the Chapel Hill Office Building, a contemporary corporate space located in the vibrant Ikoyi area of Lagos. This project involved a range of scopes, including architectural design, electrical systems, interior layout, civil engineering, sustainability practices, and project management. The result is an iconic structure that reflects modern corporate values and provides an efficient, eco-friendly, and comfortable workspace for Chapel Hill Corporation.",
+        "shortDescription": "Designed a modern corporate office building in Ikoyi for Chapel Hill Corporation.",
         "coverImage": "/assets/images/projects/chapel hill/cover.webp",
+        "project_image": "/assets/images/projects/chapel hill/cover00.webp",
         "images": [
           "/assets/images/projects/chapel hill/office01.webp",
           "/assets/images/projects/chapel hill/office02.webp",
@@ -45,6 +46,7 @@
         "description": "Our team undertook the comprehensive renovation of a private residence in the upscale area of Victoria Island, Lagos. This multifaceted project included interior design, renovation work, architectural enhancements, landscaping, electrical system upgrades, and meticulous project management. The result is a stunning and modern living space that perfectly complements the client's lifestyle and preferences.",
         "shortDescription": "Transformed a luxurious Victoria Island residence with extensive renovation work and modern design elements.",
         "coverImage": "/assets/images/projects/renovation_VI_01/cover.webp",
+        "project_image": "/assets/images/projects/renovation_VI_01/cover.webp",
         "images": [
           "/assets/images/projects/renovation_VI_01/house01.webp",
           "/assets/images/projects/renovation_VI_01/house020.webp",
@@ -72,6 +74,7 @@
         "description": "Our team was entrusted with the construction of a hostel  for Elizade University in Ondo State. This project involved a wide range of scopes, including construction, architectural design, engineering, project management, interior design, and a strong focus on sustainability. The complex now stands as a modern educational facility, providing comfortable accommodation for over 600 students.",
         "shortDescription": "Constructed a state-of-the-art hostel for Elizade University in Ondo State.",
         "coverImage": "/assets/images/projects/elizade university/cover00.webp",
+        "project_image": "/assets/images/projects/elizade university/cover00.webp",
         "images": [
           "/assets/images/projects/elizade university/maw01.webp",
           "/assets/images/projects/elizade university/maw02.webp",
@@ -98,6 +101,7 @@
         "description": "We are thrilled to present our visionary architectural design for a mixed living area. This project is a bold and innovative design that reimagines urban living and shopping in the heart of Lagos. Our design represents a cutting-edge vision for a dynamic and vibrant urban mixed living space.",
         "shortDescription": "Presenting the visionary Mixed living area, a modern urban space in Lagos. This design reflects our commitment to innovative urban development.",
         "coverImage": "/assets/images/design/The Venue/86.webp",
+        "project_image": "/assets/images/design/The Venue/86.webp",
         "images": [
               "/assets/images/design/The Venue/0.webp",
             "/assets/images/design/The Venue/2.webp",
@@ -143,7 +147,8 @@
         "why": "Building a state-of-the-art engineering lab for Elizade University.",
         "description": "We designed and built a cutting-edge engineering lab to facilitate research and learning at Elizade University.",
         "shortDescription": "We designed and built a cutting-edge engineering lab to facilitate research and learning at Elizade University.",
-        "coverImage": "/assets/images/projects/elizade lab/cover00.webp",
+        "coverImage": "/assets/images/projects/elizade lab/cover.webp",
+        "project_image": "/assets/images/projects/elizade lab/cover00.webp",
         "images": [
           "/assets/images/projects/elizade lab/maw01.webp",
           "/assets/images/projects/elizade lab/maw02.webp",
@@ -180,6 +185,7 @@
         "description": "A project that breathed new life into this Ikeja residence, offering a harmonious blend of modern aesthetics and thoughtful spatial improvements.",
         "shortDescription": "A project that breathed new life into this Ikeja residence, offering a harmonious blend of modern aesthetics and thoughtful spatial improvements.",
         "coverImage": "/assets/images/projects/NFL renovation/cover.webp",
+        "project_image": "/assets/images/projects/NFL renovation/cover.webp",
         "images": [
           "/assets/images/projects/NFL renovation/nfl01.webp",
           "/assets/images/projects/NFL renovation/nfl02.webp",
@@ -210,6 +216,7 @@
         "description": "Our team successfully completed the extensive fencing project for a farmland in Ondo State. This complex endeavor included fencing design, agricultural engineering, project management, land surveying, security measures, and an environmental impact assessment. The 14km-long fence provides enhanced security for the farm and supports efficient agricultural operations, contributing to sustainable food production.",
         "shortDescription": "Fenced a 14km farm land for enhanced security and efficient agricultural management.",
         "coverImage": "/assets/images/projects/ondo farm fencing/cover.webp",
+        "project_image": "/assets/images/projects/ondo farm fencing/cover.webp",
         "images": [
           "/assets/images/projects/ondo farm fencing/fence01.webp",
           "/assets/images/projects/ondo farm fencing/fence02.webp",
