@@ -235,7 +235,7 @@ const handelRotationLeft2 = () => {
         fill 
         blurDataURL="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
         placeholder="blur"
-        style={{objectFit:"contain"}}
+        style={{objectFit:"cover"}}
         className='w-full h-full block md:hidden' 
         alt={`Image ${index + 1}`} />
             </div>
