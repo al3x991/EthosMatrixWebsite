@@ -148,14 +148,14 @@ const handelRotationLeft2 = () => {
 <div className=" p-4 ">
   <div className='xl:max-w-screen-lg 2xl:max-w-screen-xl mx-auto'>
       <div className=" bg-white  p-6">
-    <div className='py-4 mr-5 relative  xl:left-0 h-[300px] w-full  xl:max-w-[650px]  xl:w-[60%] mb-12'>
+    <div className='py-4 mr-5 relative shadow-md  xl:left-0 h-[300px] w-full  xl:max-w-[650px]  xl:w-[60%] mb-12'>
              <Image 
           src={project.project_image}
           fill 
           blurDataURL="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
           placeholder="blur"
           style={{objectFit:"cover"}} 
-          className='w-full h-full' 
+          className='w-full h-full rounded-sm' 
            alt={`Image ${project.slug}`} />
            </div>
 <div className='flex flex-col text-center justify-center xl:text-start lg:justify-normal lg:flex-row gap-2'>
@@ -247,16 +247,16 @@ const handelRotationLeft2 = () => {
         </div>
   {/* right side */}
         <section className=" grow">
-          <div className="flex bg-slate-100 flex-col justify-between mb-6">
+          <div className="flex flex-col justify-between mb-6" style={{backgroundColor: ' #F5F5F5'}}>
        
             
             <div className='p-8 text-base flex flex-col gap-y-4 flex-wrap'>
               <p className=" font-semibold">Client: <span className=' font-normal text-amber-500'>{project.client}</span></p>
-              <div className=' border border-b-[0.8px]  border-slate-400 w-full'></div>
+              <div className=' border border-b-[0.1px]  border-slate-400 w-full'></div>
               <p className=" font-semibold">Type: <span className=' font-normal text-amber-500'>{project.category}</span></p>
-              <div className=' border border-b-[0.8px]  border-slate-400 w-full'></div>
+              <div className=' border border-b-[0.1px]  border-slate-400 w-full'></div>
               <p className=" font-semibold">Location: <span className=' font-normal text-amber-500'>{project.location}</span></p>
-              <div className=' border border-b-[0.8px]  border-slate-400 w-full'></div>
+              <div className=' border border-b-[0.1px]  border-slate-400 w-full'></div>
               <p className=" font-semibold">Date: <span className=' font-normal text-amber-500'>{project.date}</span></p>
             </div>
           </div>

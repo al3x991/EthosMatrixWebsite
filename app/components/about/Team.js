@@ -84,11 +84,24 @@ onClick={() => openModal(index)}
           className="Modal"
           overlayClassName="Overlay"
         >
-            <div className='p-8'>
-          <h2 className="text-xl font-semibold mb-1">{Teammembers[selectedMember].name}</h2>
+            <div className='p-8 flex flex-col  justify-center items-center '>
+            <div className='relative w-[150px] h-[200px] mb-4 mt-0 pt-0 rounded-md'>
+    <Image src={Teammembers[selectedMember].img}
+ placeholder='blur'
+ blurDataURL=' '
+ alt={Teammembers[selectedMember].name} 
+ style={{objectFit:"cover"}}
+ sizes={'(max-width: 250px) 100vw, 250px'}
+ fill
+ className=" rounded-md" />
+    </div>
+              <div className=''>
+              <h2 className="text-xl font-semibold mb-1">{Teammembers[selectedMember].name}</h2>
           <p className="text-gray-500">{Teammembers[selectedMember].role}</p>
           <p className="mt-4">{Teammembers[selectedMember].bio}</p>
-          <div className="mt-4 absolute top-5 right-5 cursor-pointer rounded-md text-2xl text-slate-400 px-4 py-2" onClick={closeModal}>
+              </div>
+         
+          <div className="mt-4 absolute top-5 right-2 cursor-pointer rounded-md text-2xl text-slate-400 px-4 py-2" onClick={closeModal}>
             <FaTimesCircle />
           </div>
           </div>

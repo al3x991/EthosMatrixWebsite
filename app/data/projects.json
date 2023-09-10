@@ -46,18 +46,31 @@
         "description": "Our team undertook the comprehensive renovation of a private residence in the upscale area of Victoria Island, Lagos. This multifaceted project included interior design, renovation work, architectural enhancements, landscaping, electrical system upgrades, and meticulous project management. The result is a stunning and modern living space that perfectly complements the client's lifestyle and preferences.",
         "shortDescription": "Transformed a luxurious Victoria Island residence with extensive renovation work and modern design elements.",
         "coverImage": "/assets/images/projects/renovation_VI_01/cover.webp",
-        "project_image": "/assets/images/projects/renovation_VI_01/cover.webp",
+        "project_image": "/assets/images/projects/renovation_VI_01/cover00.webp",
         "images": [
           "/assets/images/projects/renovation_VI_01/house01.webp",
-          "/assets/images/projects/renovation_VI_01/house020.webp",
+          "/assets/images/projects/renovation_VI_01/house00.webp",
           "/assets/images/projects/renovation_VI_01/house03.webp",
           "/assets/images/projects/renovation_VI_01/house04.webp"
         ],
         "image_flow": [
-          "/assets/images/projects/renovation_VI_01/house01.webp",
-          "/assets/images/projects/renovation_VI_01/house020.webp",
-          "/assets/images/projects/renovation_VI_01/house03.webp",
-          "/assets/images/projects/renovation_VI_01/house04.webp"
+          "/assets/images/projects/renovation_VI_01/flow01.webp",
+          "/assets/images/projects/renovation_VI_01/flow02.webp",
+          "/assets/images/projects/renovation_VI_01/flow03.webp",
+          "/assets/images/projects/renovation_VI_01/flow04.webp",
+          "/assets/images/projects/renovation_VI_01/flow05.webp",
+          "/assets/images/projects/renovation_VI_01/flow06.webp",
+          "/assets/images/projects/renovation_VI_01/flow07.webp",
+          "/assets/images/projects/renovation_VI_01/flow08.webp",
+          "/assets/images/projects/renovation_VI_01/flow09.webp",
+          "/assets/images/projects/renovation_VI_01/flow10.webp",
+          "/assets/images/projects/renovation_VI_01/flow11.webp",
+          "/assets/images/projects/renovation_VI_01/flow12.webp",
+          "/assets/images/projects/renovation_VI_01/flow13.webp",
+          "/assets/images/projects/renovation_VI_01/flow14.webp",
+          "/assets/images/projects/renovation_VI_01/flow15.webp",
+          "/assets/images/projects/renovation_VI_01/flow16.webp",
+          "/assets/images/projects/renovation_VI_01/cover.webp"
         ],
         "content": " "
       },
@@ -73,7 +86,7 @@
         "why": "Building a state-of-the-art hostel for over 600 students at Elizade University.",
         "description": "Our team was entrusted with the construction of a hostel  for Elizade University in Ondo State. This project involved a wide range of scopes, including construction, architectural design, engineering, project management, interior design, and a strong focus on sustainability. The complex now stands as a modern educational facility, providing comfortable accommodation for over 600 students.",
         "shortDescription": "Constructed a state-of-the-art hostel for Elizade University in Ondo State.",
-        "coverImage": "/assets/images/projects/elizade university/cover00.webp",
+        "coverImage": "/assets/images/projects/elizade university/cover.webp",
         "project_image": "/assets/images/projects/elizade university/cover00.webp",
         "images": [
           "/assets/images/projects/elizade university/maw01.webp",
@@ -82,55 +95,61 @@
           "/assets/images/projects/elizade university/maw04.webp"
         ],
         "image_flow": [
-          "/assets/images/projects/elizade university/maw01.webp",
-          "/assets/images/projects/elizade university/maw02.webp",
-          "/assets/images/projects/elizade university/maw03.webp",
-          "/assets/images/projects/elizade university/maw04.webp"
+          "/assets/images/projects/elizade university/flow01.webp",
+          "/assets/images/projects/elizade university/flow02.webp",
+          "/assets/images/projects/elizade university/flow03.webp",
+          "/assets/images/projects/elizade university/flow04.webp",
+          "/assets/images/projects/elizade university/flow05.webp",
+          "/assets/images/projects/elizade university/flow06.webp",
+          "/assets/images/projects/elizade university/flow07.webp",
+          "/assets/images/projects/elizade university/flow08.webp",
+          "/assets/images/projects/elizade university/flow11.webp",
+          "/assets/images/projects/elizade university/flow12.webp"
         ],
         "content": " "
       },
       {
-        "slug": "The-Venue",
-        "title": "The Venue",
+        "slug": "The-Tritowers",
+        "title": "The Tritowers",
         "category": "Architectural Design",
         "client": "N/A",
         "scopes": ["Floor Plan", "Agricultural Engineering", "Project Management", "Land Surveying", "Security", "Environmental Impact Assessment"],
-        "location": "Adeola Odeku, VI, Lagos",
-        "date": "2021",
+        "location": "N/A",
+        "date": "2019",
         "why": "Design",
         "description": "We are thrilled to present our visionary architectural design for a mixed living area. This project is a bold and innovative design that reimagines urban living and shopping in the heart of Lagos. Our design represents a cutting-edge vision for a dynamic and vibrant urban mixed living space.",
         "shortDescription": "Presenting the visionary Mixed living area, a modern urban space in Lagos. This design reflects our commitment to innovative urban development.",
-        "coverImage": "/assets/images/design/The Venue/86.webp",
-        "project_image": "/assets/images/design/The Venue/86.webp",
+        "coverImage": "/assets/images/design/The Tritowers/cover.webp",
+        "project_image": "/assets/images/design/The Tritowers/cover00.webp",
         "images": [
-              "/assets/images/design/The Venue/0.webp",
-            "/assets/images/design/The Venue/2.webp",
-              "/assets/images/design/The Venue/4.webp"
+              "/assets/images/design/The Tritowers/0.webp",
+            "/assets/images/design/The Tritowers/2.webp",
+              "/assets/images/design/The Tritowers/4.webp"
         ],
         "image_flow": [
-          "/assets/images/design/The Venue/0.webp",
-        "/assets/images/design/The Venue/2.webp",
-          "/assets/images/design/The Venue/4.webp"
+          "/assets/images/design/The Tritowers/0.webp",
+        "/assets/images/design/The Tritowers/2.webp",
+          "/assets/images/design/The Tritowers/4.webp"
     ],
         "content": [
           {
-              "url": "/assets/images/design/The Venue/0.webp",
+              "url": "/assets/images/design/The Tritowers/0.webp",
               "description": "Image 1 description"
           },
           {
-              "url": "/assets/images/design/The Venue/2.webp",
+              "url": "/assets/images/design/The Tritowers/2.webp",
               "description": "Image 2 description"
           },
           {
-              "url": "/assets/images/design/The Venue/4.webp",
+              "url": "/assets/images/design/The Tritowers/4.webp",
               "description": "Image 3 description"
           },
           {
-              "url": "/assets/images/design/The Venue/31.webp",
+              "url": "/assets/images/design/The Tritowers/31.webp",
               "description": "Image 4 description"
           },
           {
-              "url": "/assets/images/design/The Venue/33.webp",
+              "url": "/assets/images/design/The Tritowers/33.webp",
               "description": "Image 5 description"
           }
       ]
@@ -191,8 +210,7 @@
           "/assets/images/projects/NFL renovation/nfl02.webp",
           "/assets/images/projects/NFL renovation/nfl03.webp",
           "/assets/images/projects/NFL renovation/nfl04.webp",
-          "/assets/images/projects/NFL renovation/nfl05.webp",
-          "/assets/images/projects/NFL renovation/nfl06.webp"
+          "/assets/images/projects/NFL renovation/nfl05.webp"
         ],
         "image_flow": [
           "/assets/images/projects/NFL renovation/nfl01.webp",

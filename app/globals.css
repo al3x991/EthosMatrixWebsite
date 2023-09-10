@@ -15,7 +15,26 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+/* For WebKit-based browsers (Chrome, Safari) */
+/* Change the color of the scrollbar track */
+::-webkit-scrollbar {
+  width: 12px; /* Adjust the width as needed */
+}
 
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Background color of the scrollbar track */
+}
+
+/* Change the color and appearance of the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background: #F5A018; /* Color of the scrollbar thumb */
+  border-radius: 6px; /* Rounded corners for the thumb */
+}
+
+/* Hover styles for the thumb */
+::-webkit-scrollbar-thumb:hover {
+  background: #ffbb54;
+}
 
 
 body {
