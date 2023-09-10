@@ -44,7 +44,7 @@ className="w-full h-48 object-cover" />
 </div>
 <div className="p-4">
 <div className="flex items-center mb-2">
-<span className="text-lg font-bold">{project.title}</span>
+<span className="text-base text=black  font-medium">{project.title}</span>
 </div>
 <p className="text-sm text-gray-500">{project.shortDescription}</p>
 <div className='flex flex-row gap-1  items-centers py-4 text-slate-300"'>

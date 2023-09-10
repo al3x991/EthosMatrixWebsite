@@ -9,7 +9,7 @@ import Image from 'next/image';
 import { useState } from "react";
 import Lightbox from '../../components/Lightbox';
 import { FaCheck } from "react-icons/fa";
-
+import ImageSlider from '../../components/gallery/ImageSlider';
 
 interface PageProps {
     params: {
@@ -54,17 +54,17 @@ setClickedImg(image);
 }
 
 const handleRotationRight= () => {
-    const totalength = project.images.length;
+    const totalength = project.image_flow.length;
     if(currentIndex + 1 >= totalength){
         setCurrentIndex(0);
-        const newUrl = project.images[0];
+        const newUrl = project.image_flow[0];
         setClickedImg(newUrl);
         return;
     }
     const newIndex = currentIndex + 1;
-    const newUrl = project.images.filter((item) => {
+    const newUrl = project.image_flow.filter((item) => {
 
-        return project.images.indexOf(item) === newIndex;
+        return project.image_flow.indexOf(item) === newIndex;
 
     });
     const newItem = newUrl[0];
@@ -73,16 +73,16 @@ const handleRotationRight= () => {
 }
 
 const handelRotationLeft = () => {
-    const totalLength = project.images.length;
+    const totalLength = project.image_flow.length;
     if (currentIndex === 0) {
       setCurrentIndex(totalLength - 1);
-      const newUrl = project.images[totalLength - 1];
+      const newUrl = project.image_flow[totalLength - 1];
       setClickedImg(newUrl);
       return;
     }
     const newIndex = currentIndex - 1;
-    const newUrl = project.images.filter((item) => {
-      return project.images.indexOf(item) === newIndex;
+    const newUrl = project.image_flow.filter((item) => {
+      return project.image_flow.indexOf(item) === newIndex;
     });
     const newItem = newUrl[0];
     setClickedImg(newItem);
@@ -104,6 +104,41 @@ const handelRotationLeft = () => {
     }
   };
 
+  const handleRotationRight2 = () => {
+    const totalength = project.image_flow.length;
+    if(currentIndex + 1 >= totalength){
+        setCurrentIndex(0);
+        const newUrl = project.image_flow[0];
+        setClickedImg(newUrl);
+        return;
+    }
+    const newIndex = currentIndex + 1;
+    const newUrl = project.image_flow.filter((item) => {
+
+        return project.image_flow.indexOf(item) === newIndex;
+
+    });
+    const newItem = newUrl[0];
+    setClickedImg(newItem);
+    setCurrentIndex(newIndex);
+}
+
+const handelRotationLeft2 = () => {
+    const totalLength = project.image_flow.length;
+    if (currentIndex === 0) {
+      setCurrentIndex(totalLength - 1);
+      const newUrl = project.image_flow[totalLength - 1];
+      setClickedImg(newUrl);
+      return;
+    }
+    const newIndex = currentIndex - 1;
+    const newUrl = project.image_flow.filter((item) => {
+      return project.image_flow.indexOf(item) === newIndex;
+    });
+    const newItem = newUrl[0];
+    setClickedImg(newItem);
+    setCurrentIndex(newIndex);
+  };
 
     return (
         <>
@@ -142,10 +177,10 @@ const handelRotationLeft = () => {
         </div>
          {/* proposal architectural design images */}
         <div className='py-4'>
-          <p className='py-8 font-semibold  lg:py-3'>{project.content === " " ? '' : 'Photo Stream'  }<span className=' font-normal'>{project.content === " " ? '' : ' - Design'  }</span></p>
+          <p className='py-8 font-semibold  lg:py-3'>{project.content === " "  ? '' : 'Photo Stream'  }<span className=' font-normal'>{project.content === " " ? '' : ' - Design'  }</span></p>
           <div className="grid grid-cols-1 md:grid-cols-3 2xl:grid-cols-4 gap-2">
           {project.content !== " " ?
-          project.images.map((image, index) => (
+          project.image_flow.map((image, index) => (
             <div
               key={index}
               className="relative h-[250px] md:h-[200px] transition-transform transform md:hover:cursor-pointer  hover:scale-[1.03] w-auto  "
@@ -173,31 +208,19 @@ const handelRotationLeft = () => {
         </div>
           </div>
   {/* end proposal architectural design images */}
-        </div>
-  {/* right side */}
-        <section className=" grow">
-          <div className="flex bg-slate-100 flex-col justify-between mb-6">
-       
-            
-            <div className='p-8 text-base flex flex-col gap-y-4 flex-wrap'>
-              <p className=" font-semibold">Client: <span className=' font-normal text-amber-500'>{project.client}</span></p>
-              <div className=' border border-b-[0.8px]  border-slate-400 w-full'></div>
-              <p className=" font-semibold">Type: <span className=' font-normal text-amber-500'>{project.category}</span></p>
-              <div className=' border border-b-[0.8px]  border-slate-400 w-full'></div>
-              <p className=" font-semibold">Location: <span className=' font-normal text-amber-500'>{project.location}</span></p>
-              <div className=' border border-b-[0.8px]  border-slate-400 w-full'></div>
-              <p className=" font-semibold">Date: <span className=' font-normal text-amber-500'>{project.date}</span></p>
-            </div>
-          </div>
-          <div className=''>
-          <p className='py-8 font-semibold  lg:py-3'>{project.content === " " ? 'Project Gallery' : ''} <span className=' font-normal'>  {project.content === " " ? '-' + project.category : ''}</span></p>
-          <div className="grid grid-cols-1 md:grid-cols-3 2xl:grid-cols-4 gap-2">
+
+<div className=''>
+<div className='p-4'>
+  <h2 className=' text-base font-semibold text-black text-bold'>Men at Work - <span className=' font-medium'>Building to last</span></h2>
+  </div>
+<div className="grid grid-cols-1 md:grid-cols-3 2xl:grid-cols-4 gap-2">
           {project.content === " " ?
-          project.images.map((image, index) => (
+          project.image_flow.map((image, index) => (
             <div
               key={index}
-              className="relative h-[250px] md:h-[180px] lg:h-[80px]  transition-transform transform md:hover:cursor-pointer  hover:scale-[1.03] w-auto  "
+              className="relative h-[250px] md:h-[180px] lg:h-[180px]  transition-transform transform md:hover:cursor-pointer  hover:scale-[1.03] w-auto  "
             >
+              
               <Image 
          src={image}
         fill 
@@ -218,6 +241,29 @@ const handelRotationLeft = () => {
             </div>
           )) : ''}
           {clickedImg && <Lightbox clickedImg={clickedImg} handleRotationRight={handleRotationRight} setClickedImg={setClickedImg} handelRotationLeft={handelRotationLeft}/>}
+        </div>
+</div>
+
+        </div>
+  {/* right side */}
+        <section className=" grow">
+          <div className="flex bg-slate-100 flex-col justify-between mb-6">
+       
+            
+            <div className='p-8 text-base flex flex-col gap-y-4 flex-wrap'>
+              <p className=" font-semibold">Client: <span className=' font-normal text-amber-500'>{project.client}</span></p>
+              <div className=' border border-b-[0.8px]  border-slate-400 w-full'></div>
+              <p className=" font-semibold">Type: <span className=' font-normal text-amber-500'>{project.category}</span></p>
+              <div className=' border border-b-[0.8px]  border-slate-400 w-full'></div>
+              <p className=" font-semibold">Location: <span className=' font-normal text-amber-500'>{project.location}</span></p>
+              <div className=' border border-b-[0.8px]  border-slate-400 w-full'></div>
+              <p className=" font-semibold">Date: <span className=' font-normal text-amber-500'>{project.date}</span></p>
+            </div>
+          </div>
+          <div className=''>
+          <p className='py-4 font-semibold  lg:py-3'>{project.content === " " ? 'Project Reel' : ''} <span className=' font-normal'>  {project.content === " " ? '-' + project.category : ''}</span></p>
+          <div className="px-5">
+        <ImageSlider images={project.images} />
         </div>
 
 

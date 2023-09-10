@@ -18,7 +18,7 @@ return (
 {/* className="object-cover w-full h-full"  */}
 <Image 
 src="/assets/images/home1.webp"
-blurDataURL=" "
+blurDataURL= "data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
 placeholder="blur"
 alt="Home Background" 
 style={{objectFit:"cover"}}

@@ -25,7 +25,7 @@ return (
 <div className="relative  w-full h-full xl:h-2/6 py-16">
 <Image 
 src="/assets/images/layout-bg.webp"
-blurDataURL="data:..."
+blurDataURL= "data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
 placeholder="blur"
 sizes={'(max-width: 1250px) 100vw, 1250px'}
 alt="Hero-Background" 
@@ -36,8 +36,8 @@ fill
 <div className="flex  items-center xl:items-start flex-row gap-4 py-10 ">
 <div className="hidden lg:block xinset-0" style={divStyle}>
 <Image 
-src="/assets/images/contractor.webp"
-alt="Contruction-worker-Image"
+src="/assets/images/contractor2.webp"
+alt="Contractor-image"
 width={'350'}
 height={'350'}
 className="absolute bottom-0  lg:left-[5vw]  xl:left-[20vw]"

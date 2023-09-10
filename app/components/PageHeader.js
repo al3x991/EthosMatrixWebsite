@@ -13,7 +13,7 @@ const Hero = ({title, imgSource, curL }) => {
   
 
 return (
-<section className="relative flex w-full  h-[50vh]">
+<section className="relative flex w-full  h-[80vh]">
  
 {/* className="object-cover w-full h-full"  */}
 <Image 

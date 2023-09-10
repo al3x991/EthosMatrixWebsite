@@ -47,7 +47,7 @@ const Navbar = () => {
             width={140}
             height={140}
             as="image"
-            priority
+            priority={true}
           />
            </Link>
         </div>

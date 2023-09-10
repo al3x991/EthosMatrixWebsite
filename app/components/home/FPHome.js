@@ -41,6 +41,7 @@ style={{
 backgroundImage: `url('/assets/images/background2.webp')`,
 backgroundSize: 'cover',
 backgroundPosition: 'center',
+blurDataURL: "data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==",
 }}
 >
 

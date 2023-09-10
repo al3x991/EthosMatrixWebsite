@@ -2,13 +2,8 @@ import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 
 
-const ImageSlider = () => {
-const images = [
-'/assets/images/gallery/office01.webp',
-'/assets/images/gallery/office02.webp',
-'/assets/images/gallery/office03.webp',
-'/assets/images/gallery/office04.webp',
-];
+const ImageSlider = ({images}) => {
+
 
 const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -21,17 +16,17 @@ setCurrentIndex((prevIndex) => (prevIndex === images.length - 1 ? 0 : prevIndex 
 };
 
 useEffect(() => {
-const interval = setInterval(goToNextImage, 3000); // Auto slide every 5 seconds
+const interval = setInterval(goToNextImage, 5000); // Auto slide every 5 seconds
 
 return () => clearInterval(interval);
 }, []);
 
 return (
-<div className="relative w-full h-96 overflow-hidden xl:w-[500px]">
+<div className="relative mr-[-30px] w-full h-96 overflow-hidden">
 <Image
 src={images[currentIndex]}
 alt={`Image ${currentIndex + 1}`}
-style={{objectFit:"cover"}}
+style={{objectFit:"contain"}}
 fill
 blurDataURL="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
 placeholder="blur"

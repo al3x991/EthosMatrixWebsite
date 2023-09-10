@@ -19,6 +19,17 @@
           "/assets/images/projects/chapel hill/office03.webp",
           "/assets/images/projects/chapel hill/office04.webp"
         ],
+        "image_flow": [
+          "/assets/images/projects/chapel hill/flow02.webp",
+          "/assets/images/projects/chapel hill/flow03.webp",
+          "/assets/images/projects/chapel hill/flow04.webp",
+          "/assets/images/projects/chapel hill/flow05.webp",
+          "/assets/images/projects/chapel hill/flow06.webp",
+          "/assets/images/projects/chapel hill/flow07.webp",
+          "/assets/images/projects/chapel hill/flow08.webp",
+          "/assets/images/projects/chapel hill/flow09.webp",
+          "/assets/images/projects/chapel hill/flow10.webp"
+        ],
         "content": " "
       },
       {
@@ -40,6 +51,12 @@
           "/assets/images/projects/renovation_VI_01/house03.webp",
           "/assets/images/projects/renovation_VI_01/house04.webp"
         ],
+        "image_flow": [
+          "/assets/images/projects/renovation_VI_01/house01.webp",
+          "/assets/images/projects/renovation_VI_01/house020.webp",
+          "/assets/images/projects/renovation_VI_01/house03.webp",
+          "/assets/images/projects/renovation_VI_01/house04.webp"
+        ],
         "content": " "
       },
       {
@@ -52,10 +69,16 @@
         "location": "Ondo",
         "date": "2021",
         "why": "Building a state-of-the-art hostel for over 600 students at Elizade University.",
-        "description": "Our team was entrusted with the construction of a hostel and science complex for Elizade University in Ondo State. This project involved a wide range of scopes, including construction, architectural design, engineering, project management, interior design, and a strong focus on sustainability. The complex now stands as a modern educational facility, providing comfortable accommodation and cutting-edge science labs for students.",
-        "shortDescription": "Constructed a state-of-the-art hostel and science complex for Elizade University in Ondo State.",
+        "description": "Our team was entrusted with the construction of a hostel  for Elizade University in Ondo State. This project involved a wide range of scopes, including construction, architectural design, engineering, project management, interior design, and a strong focus on sustainability. The complex now stands as a modern educational facility, providing comfortable accommodation for over 600 students.",
+        "shortDescription": "Constructed a state-of-the-art hostel for Elizade University in Ondo State.",
         "coverImage": "/assets/images/projects/elizade university/cover00.webp",
         "images": [
+          "/assets/images/projects/elizade university/maw01.webp",
+          "/assets/images/projects/elizade university/maw02.webp",
+          "/assets/images/projects/elizade university/maw03.webp",
+          "/assets/images/projects/elizade university/maw04.webp"
+        ],
+        "image_flow": [
           "/assets/images/projects/elizade university/maw01.webp",
           "/assets/images/projects/elizade university/maw02.webp",
           "/assets/images/projects/elizade university/maw03.webp",
@@ -80,6 +103,11 @@
             "/assets/images/design/The Venue/2.webp",
               "/assets/images/design/The Venue/4.webp"
         ],
+        "image_flow": [
+          "/assets/images/design/The Venue/0.webp",
+        "/assets/images/design/The Venue/2.webp",
+          "/assets/images/design/The Venue/4.webp"
+    ],
         "content": [
           {
               "url": "/assets/images/design/The Venue/0.webp",
@@ -104,23 +132,39 @@
       ]
     },
       {
-        "slug": "elizade-university-science-lab",
-        "title": "University Science Lab",
+        "slug": "elizade-university-engineeering-lab",
+        "title": "University Engineering Lab",
         "category": "Construction",
         "type": "Education",
         "client": "Elizade University",
         "scopes": ["Construction", "Architecture", "Engineering", "Project Management", "Interior", "Sustainability"],
         "location": "Ondo",
         "date": "2021",
-        "why": "Building a state-of-the-art science lab for Elizade University.",
-        "description": "We designed and built a cutting-edge science lab to facilitate research and learning at Elizade University.",
-        "shortDescription": "We designed and built a cutting-edge science lab to facilitate research and learning at Elizade University.",
+        "why": "Building a state-of-the-art engineering lab for Elizade University.",
+        "description": "We designed and built a cutting-edge engineering lab to facilitate research and learning at Elizade University.",
+        "shortDescription": "We designed and built a cutting-edge engineering lab to facilitate research and learning at Elizade University.",
         "coverImage": "/assets/images/projects/elizade lab/cover.webp",
         "images": [
           "/assets/images/projects/elizade lab/maw01.webp",
           "/assets/images/projects/elizade lab/maw02.webp",
-          "/assets/images/projects/elizade lab/maw03.webp",
-          "/assets/images/projects/elizade lab/maw04.webp"
+          "/assets/images/projects/elizade lab/maw03.webp"
+        ],
+        "image_flow": [
+          "/assets/images/projects/elizade lab/flow01.webp",
+          "/assets/images/projects/elizade lab/flow02.webp",
+          "/assets/images/projects/elizade lab/flow03.webp",
+          "/assets/images/projects/elizade lab/flow05.webp",
+          "/assets/images/projects/elizade lab/flow06.webp",
+          "/assets/images/projects/elizade lab/flow07.webp",
+          "/assets/images/projects/elizade lab/flow08.webp",
+          "/assets/images/projects/elizade lab/flow09.webp",
+          "/assets/images/projects/elizade lab/flow10.webp",
+          "/assets/images/projects/elizade lab/flow11.webp",
+          "/assets/images/projects/elizade lab/flow12.webp",
+          "/assets/images/projects/elizade lab/flow13.webp",
+          "/assets/images/projects/elizade lab/flow14.webp",
+          "/assets/images/projects/elizade lab/flow15.webp",
+          "/assets/images/projects/elizade lab/flow16.webp"
         ],
         "content": " "
       },
@@ -145,6 +189,14 @@
           "/assets/images/projects/NFL renovation/nfl05.webp",
           "/assets/images/projects/NFL renovation/nfl06.webp"
         ],
+        "image_flow": [
+          "/assets/images/projects/NFL renovation/nfl01.webp",
+          "/assets/images/projects/NFL renovation/nfl02.webp",
+          "/assets/images/projects/NFL renovation/nfl03.webp",
+          "/assets/images/projects/NFL renovation/nfl04.webp",
+          "/assets/images/projects/NFL renovation/nfl05.webp",
+          "/assets/images/projects/NFL renovation/nfl06.webp"
+        ],
         "content": " "
       },
       {
@@ -160,6 +212,14 @@
         "shortDescription": "Fenced a 14km farm land for enhanced security and efficient agricultural management.",
         "coverImage": "/assets/images/projects/ondo farm fencing/cover.webp",
         "images": [
+          "/assets/images/projects/ondo farm fencing/fence01.webp",
+          "/assets/images/projects/ondo farm fencing/fence02.webp",
+          "/assets/images/projects/ondo farm fencing/fence03.webp",
+          "/assets/images/projects/ondo farm fencing/fence04.webp",
+          "/assets/images/projects/ondo farm fencing/fence05.webp",
+          "/assets/images/projects/ondo farm fencing/fence06.webp"
+        ],
+        "image_flow": [
           "/assets/images/projects/ondo farm fencing/fence01.webp",
           "/assets/images/projects/ondo farm fencing/fence02.webp",
           "/assets/images/projects/ondo farm fencing/fence03.webp",
