@@ -204,7 +204,7 @@
         "description": "A project that breathed new life into this Ikeja residence, offering a harmonious blend of modern aesthetics and thoughtful spatial improvements.",
         "shortDescription": "A project that breathed new life into this Ikeja residence, offering a harmonious blend of modern aesthetics and thoughtful spatial improvements.",
         "coverImage": "/assets/images/projects/NFL renovation/cover.webp",
-        "project_image": "/assets/images/projects/NFL renovation/cover.webp",
+        "project_image": "/assets/images/projects/NFL renovation/cover00.webp",
         "images": [
           "/assets/images/projects/NFL renovation/nfl01.webp",
           "/assets/images/projects/NFL renovation/nfl02.webp",
@@ -213,12 +213,24 @@
           "/assets/images/projects/NFL renovation/nfl05.webp"
         ],
         "image_flow": [
-          "/assets/images/projects/NFL renovation/nfl01.webp",
-          "/assets/images/projects/NFL renovation/nfl02.webp",
-          "/assets/images/projects/NFL renovation/nfl03.webp",
-          "/assets/images/projects/NFL renovation/nfl04.webp",
-          "/assets/images/projects/NFL renovation/nfl05.webp",
-          "/assets/images/projects/NFL renovation/nfl06.webp"
+          "/assets/images/projects/NFL renovation/flow01.webp",
+          "/assets/images/projects/NFL renovation/flow02.webp",
+          "/assets/images/projects/NFL renovation/flow03.webp",
+          "/assets/images/projects/NFL renovation/flow04.webp",
+          "/assets/images/projects/NFL renovation/flow05.webp",
+          "/assets/images/projects/NFL renovation/flow06.webp",
+          "/assets/images/projects/NFL renovation/flow07.webp",
+          "/assets/images/projects/NFL renovation/flow08.webp",
+          "/assets/images/projects/NFL renovation/flow09.webp",
+          "/assets/images/projects/NFL renovation/flow10.webp",
+          "/assets/images/projects/NFL renovation/flow11.webp",
+          "/assets/images/projects/NFL renovation/flow12.webp",
+          "/assets/images/projects/NFL renovation/flow13.webp",
+          "/assets/images/projects/NFL renovation/flow14.webp",
+          "/assets/images/projects/NFL renovation/flow15.webp",
+          "/assets/images/projects/NFL renovation/flow16.webp",
+          "/assets/images/projects/NFL renovation/flow17.webp",
+          "/assets/images/projects/NFL renovation/flow18.webp"
         ],
         "content": " "
       },
