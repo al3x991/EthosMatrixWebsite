@@ -235,8 +235,8 @@
         "content": " "
       },
       {
-        "slug": "farm-fencing-project",
-        "title": "Farm Land Fencing Project",
+        "slug": "smoking-hill-fencing",
+        "title": "Smoking Hill Fencing",
         "category": "Construction",
         "client": "FarmPro Agribusiness",
         "scopes": ["Fencing", "Agricultural Engineering", "Project Management", "Land Surveying", "Security", "Environmental Impact Assessment"],
@@ -246,22 +246,21 @@
         "description": "Our team successfully completed the extensive fencing project for a farmland in Ondo State. This complex endeavor included fencing design, agricultural engineering, project management, land surveying, security measures, and an environmental impact assessment. The 14km-long fence provides enhanced security for the farm and supports efficient agricultural operations, contributing to sustainable food production.",
         "shortDescription": "Fenced a 14km farm land for enhanced security and efficient agricultural management.",
         "coverImage": "/assets/images/projects/ondo farm fencing/cover.webp",
-        "project_image": "/assets/images/projects/ondo farm fencing/cover.webp",
+        "project_image": "/assets/images/projects/ondo farm fencing/cover00.webp",
         "images": [
-          "/assets/images/projects/ondo farm fencing/fence01.webp",
-          "/assets/images/projects/ondo farm fencing/fence02.webp",
-          "/assets/images/projects/ondo farm fencing/fence03.webp",
-          "/assets/images/projects/ondo farm fencing/fence04.webp",
-          "/assets/images/projects/ondo farm fencing/fence05.webp",
-          "/assets/images/projects/ondo farm fencing/fence06.webp"
+          "/assets/images/projects/ondo farm fencing/flow02.webp",
+          "/assets/images/projects/ondo farm fencing/flow03.webp",
+          "/assets/images/projects/ondo farm fencing/flow04.webp",
+          "/assets/images/projects/ondo farm fencing/flow08.webp"
         ],
         "image_flow": [
-          "/assets/images/projects/ondo farm fencing/fence01.webp",
-          "/assets/images/projects/ondo farm fencing/fence02.webp",
-          "/assets/images/projects/ondo farm fencing/fence03.webp",
-          "/assets/images/projects/ondo farm fencing/fence04.webp",
-          "/assets/images/projects/ondo farm fencing/fence05.webp",
-          "/assets/images/projects/ondo farm fencing/fence06.webp"
+          "/assets/images/projects/ondo farm fencing/flow01.webp",
+          "/assets/images/projects/ondo farm fencing/flow02.webp",
+          "/assets/images/projects/ondo farm fencing/flow03.webp",
+          "/assets/images/projects/ondo farm fencing/flow04.webp",
+          "/assets/images/projects/ondo farm fencing/flow05.webp",
+          "/assets/images/projects/ondo farm fencing/flow07.webp",
+          "/assets/images/projects/ondo farm fencing/flow08.webp"
         ],
         "content": " "
       }
