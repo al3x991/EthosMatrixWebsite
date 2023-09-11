@@ -123,22 +123,16 @@
         "project_image": "/assets/images/design/The Tritowers/cover00.webp",
         "images": [
               "/assets/images/design/The Tritowers/0.webp",
-            "/assets/images/design/The Tritowers/2.webp",
               "/assets/images/design/The Tritowers/4.webp"
         ],
         "image_flow": [
           "/assets/images/design/The Tritowers/0.webp",
-        "/assets/images/design/The Tritowers/2.webp",
           "/assets/images/design/The Tritowers/4.webp"
     ],
         "content": [
           {
               "url": "/assets/images/design/The Tritowers/0.webp",
               "description": "Image 1 description"
-          },
-          {
-              "url": "/assets/images/design/The Tritowers/2.webp",
-              "description": "Image 2 description"
           },
           {
               "url": "/assets/images/design/The Tritowers/4.webp",

@@ -211,7 +211,14 @@ const handelRotationLeft2 = () => {
 
 <div className=''>
 <div className='p-4'>
-  <h2 className=' text-base font-semibold text-black text-bold'>{project.category === "Architectural Design"  ? 'Project Gallery -' : 'Men at Work -'  } <span className=' font-medium'>{project.category === "Architectural Design"  ? ' Crafting Dreams' : ' Turning Visions into Reality'  }</span></h2>
+{!project.content && (
+  <h2 className='text-base font-semibold text-black text-bold'>
+    {project.category === "Architectural Design" ? 'Project Gallery -' : 'Men at Work -'}{' '}
+    <span className='font-medium'>
+      {project.category === "Architectural Design" ? 'Crafting Dreams' : 'Turning Visions into Reality'}
+    </span>
+  </h2>
+)}
   </div>
 <div className="grid grid-cols-1 md:grid-cols-3 2xl:grid-cols-4 gap-2">
           {project.content === " " ?
