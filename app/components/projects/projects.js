@@ -10,7 +10,7 @@ import Image from "next/image";
 
 export default function ProjectsList() {
 const [categoryFilter, setCategoryFilter] = useState('All');
-const [projectsToShow, setProjectsToShow] = useState(10);
+const [projectsToShow, setProjectsToShow] = useState(8);
 
 // Function to filter projects based on category
 const filteredProjects = projectsData.projects.filter((project) => {
@@ -22,7 +22,7 @@ return project.category === categoryFilter;
 
 // Function to handle load more button click
 const handleLoadMore = () => {
-setProjectsToShow((prevCount) => prevCount + 10);
+setProjectsToShow((prevCount) => prevCount + 8);
 };
 
 // Function to render project cards
@@ -86,7 +86,7 @@ Real Estate
 
 {/* Load More Button */}
 {projectsToShow < filteredProjects.length && (
-<div className="mt-4 text-center">
+<div className="mt-12 text-center">
 <button onClick={handleLoadMore} className="bg-amber-500 text-white px-4 py-2 rounded-lg">
 Load More
 </button>

@@ -31,7 +31,7 @@
           "/assets/images/projects/chapel hill/flow09.webp",
           "/assets/images/projects/chapel hill/flow10.webp"
         ],
-        "content": " "
+        "content":  [ ]
       },
       {
         "slug": "victoria-island-house-renovation",
@@ -72,7 +72,7 @@
           "/assets/images/projects/renovation_VI_01/flow16.webp",
           "/assets/images/projects/renovation_VI_01/cover.webp"
         ],
-        "content": " "
+        "content":  [ ]
       },
       {
         "slug": "elizade-university-hostel",
@@ -106,7 +106,7 @@
           "/assets/images/projects/elizade university/flow11.webp",
           "/assets/images/projects/elizade university/flow12.webp"
         ],
-        "content": " "
+        "content":  [ ]
       },
       {
         "slug": "The-Tritowers",
@@ -132,19 +132,23 @@
         "content": [
           {
               "url": "/assets/images/design/The Tritowers/0.webp",
-              "description": "Image 1 description"
+              "description": "Image 1 description",
+              "showText": true
           },
           {
               "url": "/assets/images/design/The Tritowers/4.webp",
-              "description": "Image 3 description"
+              "description": "Image 3 description",
+              "showText": true
           },
           {
               "url": "/assets/images/design/The Tritowers/31.webp",
-              "description": "Image 4 description"
+              "description": "Image 4 description",
+              "showText": false
           },
           {
               "url": "/assets/images/design/The Tritowers/33.webp",
-              "description": "Image 5 description"
+              "description": "Image 5 description",
+              "showText": false
           }
       ]
     },
@@ -183,8 +187,70 @@
           "/assets/images/projects/elizade lab/flow15.webp",
           "/assets/images/projects/elizade lab/flow16.webp"
         ],
-        "content": " "
+        "content":  [ ]
       },
+      {
+        "slug": "GERARD3",
+        "title": "Project Mix 3",
+        "category": "Architectural Design",
+        "client": "N/A",
+        "scopes": ["Floor Plan", "Agricultural Engineering", "Project Management", "Land Surveying", "Security", "Environmental Impact Assessment"],
+        "location": "N/A",
+        "date": "2019",
+        "why": "Design",
+        "description": "At the heart of urban living and modernity, we are proud to introduce our ambitious mixed living area design project. Nestled in a prime location, our design seamlessly integrates residential bliss, vibrant commercial spaces, a serene plaza, ample parking, and a luxurious pool area, all designed to enhance your lifestyle and provide a diverse and inclusive community experience.",
+        "shortDescription": "Introducing our diverse mixed living project, blending residential, commercial, plaza, parking, and pool amenities for urban living.",
+        "coverImage": "/assets/images/design/GERARD3/cover.webp",
+        "project_image": "/assets/images/design/GERARD3/cover00.webp",
+        "images": [
+              "/assets/images/design/GERARD3/dg01.webp",
+              "/assets/images/design/GERARD3/dg02.webp"
+             
+        ],
+        "image_flow": [
+          "/assets/images/design/GERARD3/dg04.webp",
+          "/assets/images/design/GERARD3/dg05.webp",
+          "/assets/images/design/GERARD3/dg06.webp"
+          
+    ],
+        "content": [
+          {
+            "url": "/assets/images/design/GERARD3/image00.webp",
+            "description": "Our high-level diagram offers a top view of the Gerard 3 Project, providing a comprehensive overview of this modern living area and highlighting its key features. This bird's eye perspective reveals the harmonious integration of buildings and amenities, forming a dynamic and vibrant community.",
+            "showText": true
+        },
+          {
+              "url": "/assets/images/design/GERARD3/dg01.webp",
+              "description": "Elegance is the essence of this room. The color palette, the tasteful decor, and the carefully selected artwork all contribute to an atmosphere of sophistication. Each piece seems to tell a story, adding depth and character to the space.",
+              "showText": true
+          },
+          {
+            "url": "/assets/images/design/GERARD3/dg02.webp",
+              "description": "Charm and simplicity are the defining features of this bedroom's design. Soft hues and unassuming decor create an atmosphere of understated elegance. It's a space that celebrates the beauty found in life's quiet moments.",
+              "showText": true
+          },
+          {
+            "url": "/assets/images/design/GERARD3/dg03.webp",
+              "description": "Natural light floods the bathroom, creating a bright and inviting ambiance. Large windows or strategically placed skylights bring the beauty of the outdoors inside. It's a refreshing space that allows you to connect with nature even as you go about your daily routine.",
+              "showText": true
+          },
+          {
+            "url": "/assets/images/design/GERARD3/dg04.webp",
+              "description": "Image 5 description",
+              "showText": false
+          },
+          {
+            "url": "/assets/images/design/GERARD3/dg05.webp",
+              "description": "Image 5 description",
+              "showText": false
+          },
+          {
+            "url": "/assets/images/design/GERARD3/dg06.webp",
+              "description": "Image 5 description",
+              "showText": false
+          }
+      ]
+    },
       {
         "slug": "GRA-Ikeja-House-Renovation",
         "title": "GRA Ikeja House Remodeling",
@@ -226,8 +292,65 @@
           "/assets/images/projects/NFL renovation/flow17.webp",
           "/assets/images/projects/NFL renovation/flow18.webp"
         ],
-        "content": " "
+        "content":  [ ]
       },
+      {
+        "slug": "GERARD44",
+        "title": "Project Mix 44",
+        "category": "Architectural Design",
+        "client": "N/A",
+        "scopes": ["Floor Plan", "Agricultural Engineering", "Project Management", "Land Surveying", "Security", "Environmental Impact Assessment"],
+        "location": "N/A",
+        "date": "2019",
+        "why": "Design",
+        "description": "Welcome to our distinctive mixed living area design project, where we've embarked on a journey to seamlessly weave together diverse elements, all converging to shape a truly harmonious and enriching community experience.",
+        "shortDescription": "Welcome to our unique mixed living project, seamlessly blending elements for a harmonious community experience.",
+        "coverImage": "/assets/images/design/GERARD44/cover.webp",
+        "project_image": "/assets/images/design/GERARD44/cover00.webp",
+        "images": [
+              "/assets/images/design/GERARD44/dg01.webp",
+              "/assets/images/design/GERARD44/dg02.webp"
+        ],
+        "image_flow": [
+          "/assets/images/design/GERARD44/dg01.webp",
+          "/assets/images/design/GERARD44/dg02.webp",
+          "/assets/images/design/GERARD44/dg03.webp",
+              "/assets/images/design/GERARD44/cover.webp"
+    ],
+        "content": [
+          {
+            "url": "/assets/images/design/GERARD44/image01.webp",
+            "description": "Our high-level diagram offers a captivating aerial view of the project, providing a comprehensive overview of this exceptional urban development while highlighting its prominent features. This panoramic vista showcases the fusion of architectural brilliance and urban conveniences within a bustling metropolitan landscape.",
+            "showText": true
+        },
+          {
+            "url": "/assets/images/design/GERARD44/dg05.webp",
+              "description": "Efficiency is a defining feature of our design philosophy. While we prioritize aesthetics, we also believe that every design element should serve a purpose. The reception area is a harmonious symphony of form and function, where every detail contributes to the overall experience.",
+              "showText": true
+          },
+          
+          {
+            "url": "/assets/images/design/GERARD44/dg01.webp",
+              "description": "The playground is a vibrant hub of activity, designed to spark joy and creativity in children and bring families together. As you step into this lively space, you'll find an array of play equipment that invites kids to explore, climb, swing, and slide. Laughter and the sound of playful chatter fill the air as children embark on adventures, make new friends, and create cherished memories.",
+              "showText": true
+          },
+          {
+            "url": "/assets/images/design/GERARD44/dg02.webp",
+              "description": "The restaurant area captivates with its design elegance. Modernity merges seamlessly with timeless aesthetics, creating an atmosphere that transcends the ordinary. Every design element, from the lighting to the furnishings, has been meticulously curated to ensure an experience that is both visually stunning and emotionally resonant. It's a space where form and function coexist harmoniously, where efficiency meets ambiance, and where every detail serves a purpose. ",
+              "showText": true
+          },
+          {
+            "url": "/assets/images/design/GERARD44/dg03.webp",
+              "description": "Modern design elements blend seamlessly with opulent touches, creating an ambiance that exudes sophistication. From the moment you step into this space, you're enveloped in an atmosphere of style and comfort. Every detail, from the layout to the choice of materials, has been meticulously considered to offer residents a living experience that is both visually captivating and emotionally gratifying. ",
+              "showText": true
+          },
+          {
+            "url": "/assets/images/design/GERARD44/dg04.webp",
+              "description": "The penthouse dining area is a showcase of elegance. It seamlessly blends contemporary design with luxurious details, creating a dining space that's as visually pleasing as it is inviting. ",
+              "showText": true
+          }
+      ]
+    },
       {
         "slug": "smoking-hill-fencing",
         "title": "Smoking Hill Fencing",
@@ -256,7 +379,7 @@
           "/assets/images/projects/ondo farm fencing/flow07.webp",
           "/assets/images/projects/ondo farm fencing/flow08.webp"
         ],
-        "content": " "
+        "content":  [ ]
       }
     ]
   }
