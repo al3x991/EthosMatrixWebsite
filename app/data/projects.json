@@ -110,15 +110,15 @@
       },
       {
         "slug": "The-Tritowers",
-        "title": "The Tritowers",
+        "title": "The Tri-towers",
         "category": "Architectural Design",
         "client": "N/A",
         "scopes": ["Floor Plan", "Agricultural Engineering", "Project Management", "Land Surveying", "Security", "Environmental Impact Assessment"],
         "location": "N/A",
         "date": "2019",
         "why": "Design",
-        "description": "We are thrilled to present our visionary architectural design for a mixed living area. This project is a bold and innovative design that reimagines urban living and shopping in the heart of Lagos. Our design represents a cutting-edge vision for a dynamic and vibrant urban mixed living space.",
-        "shortDescription": "Presenting the visionary Mixed living area, a modern urban space in Lagos. This design reflects our commitment to innovative urban development.",
+        "description": "We are thrilled to present our visionary architectural design for a mixed living area. a multifaceted project that embodies the essence of modern urban living. This visionary development harmoniously integrates three towering structures, each dedicated to enhancing various facets of contemporary life.",
+        "shortDescription": "A modern urban project that seamlessly combines three distinct towers, enhancing diverse aspects of contemporary living.",
         "coverImage": "/assets/images/design/The Tritowers/cover.webp",
         "project_image": "/assets/images/design/The Tritowers/cover00.webp",
         "images": [
@@ -126,24 +126,26 @@
               "/assets/images/design/The Tritowers/4.webp"
         ],
         "image_flow": [
+          "/assets/images/design/The Tritowers/3.webp",
           "/assets/images/design/The Tritowers/0.webp",
-          "/assets/images/design/The Tritowers/4.webp"
+          "/assets/images/design/The Tritowers/85.webp",
+          "/assets/images/design/The Tritowers/86.webp"
     ],
         "content": [
           {
-              "url": "/assets/images/design/The Tritowers/0.webp",
-              "description": "Image 1 description",
+              "url": "/assets/images/design/The Tritowers/56.webp",
+              "description": "At the heart of The Tri-Towers lies a world of diversity and convenience. Discover an array of amenities that elevate your everyday experiences, including a captivating gallery area, enticing restaurants, a serene pool area, communal spaces for connection, a luxurious ballroom for events, banking services, a supermarket for daily needs, a pharmacy for health and wellness, and a residential area that redefines comfort and style.",
               "showText": true
           },
           {
-              "url": "/assets/images/design/The Tritowers/4.webp",
-              "description": "Image 3 description",
+              "url": "/assets/images/design/The Tritowers/86.webp",
+              "description": "The pool area is a tranquil oasis where you can unwind and bask in the pleasures of leisure. Take a refreshing dip, lounge by the pool, or simply soak up the sun in this serene retreat.",
               "showText": true
           },
           {
-              "url": "/assets/images/design/The Tritowers/31.webp",
-              "description": "Image 4 description",
-              "showText": false
+              "url": "/assets/images/design/The Tritowers/85.webp",
+              "description": "With banking services, a supermarket, and a pharmacy within the project, you'll find convenience at every turn. Whether you're managing finances, stocking up on essentials, or prioritizing wellness, The Tri-Towers has you covered.",
+              "showText": true
           },
           {
               "url": "/assets/images/design/The Tritowers/33.webp",
