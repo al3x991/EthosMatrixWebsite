@@ -4,7 +4,7 @@
 import Image from "next/image";
 import { motion, useTransform, useScroll } from 'framer-motion';
 import "./hero.css"
-
+import Link from "next/link";
 
 
 const Hero = () => {
@@ -91,7 +91,9 @@ priority
 <motion.p initial={{ opacity: 0 }} className="my-5 max-w-lg md:max-w-3xl text-base md:text-1xl xl:text-base mb-12" animate={{ opacity: 1 }} transition={{ delay: 0.2}}>
 From revitalizing existing structures to shaping new horizons, we specialize in turning ambitious visions into tangible reality.
 Explore the art of construction excellence and let your aspirations come to life with our expertise.</motion.p>
-<motion.button initial={{ opacity: 0 }} className="border-btn" animate={{ opacity: 1 }} transition={{ delay: 0.4 }}>Discover More</motion.button>
+<motion.div initial={{ opacity: 0 }} className="border-btn text-center" animate={{ opacity: 1 }} transition={{ delay: 0.4 }}>
+<Link href="/projects" initial={{ opacity: 0 }}  animate={{ opacity: 1 }} transition={{ delay: 0.4 }}>Discover More</Link>
+</motion.div>
 </motion.div>
 </div>
 </div>

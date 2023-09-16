@@ -158,7 +158,7 @@ return (
 
 shouldDisplayContent ? 
 <>
-<div className='py-4 mx-auto relative shadow-md h-[300px] w-full  xl:max-w-[650px]  xl:w-[60%] mb-12'>
+<div className='py-4 mx-auto relative shadow-md h-[400px] w-full  xl:max-w-[650px]  xl:w-[60%] mb-12  text-gray-700'>
 <Image 
 src={project.project_image}
 fill 
@@ -167,22 +167,36 @@ placeholder="blur"
 style={{objectFit:"cover"}} 
 className='w-full h-full rounded-sm' 
 alt={`Image ${project.slug}`} />
+<div className=' absolute bottom-0 w-full '>
+  {project.why === 'Concept' && project.client === 'K-Box' && (
+    <div className=' bg-white flex flex-row justify-between items-center p-5'>
+      <p className=' text-sm text-slate-600'>This project was made in collaboration with K-Box construction and design.</p>
+      <Image 
+      src='/assets/images/k-box-logo.webp' 
+      width={65}
+       height={65} 
+       alt='kbox-construction-and-design-logo'
+       />
+    </div>
+  )}
 </div>
-<div className=' 2xl:max-w-screen-xl mx-auto justify-center'>
+
+</div>
+<div className=' 2xl:max-w-screen-xl text-center mx-auto justify-center text-gray-700'>
 <div className="py-4">
 <p className="text-base py-3">{project.shortDescription}</p>
 </div>
 <div className="py-4 flex items-center justify-center mx-auto">
   <div className='text-center'>
 <p className="font-semibold pb-6">Project Scope:</p>
-<ul className="list-disc list-inside grid grid-cols-1 max-w-screen-xl  md:grid-cols-2 justify-center items-center">
+<ul className="list-disc list-inside grid grid-cols-1 max-w-screen-xl gap-x-12  md:grid-cols-2 justify-center items-center">
 {project.scopes.map((scope, index) => (
 <li className='list-none flex flex-row gap-4 items-center justify-normal' key={index}><FaCheck className=' text-base text-amber-500' /><span>{scope}</span></li>
 ))}
 </ul>
 </div>
 </div>
-<div className="py-4">
+<div className="py-4 text-center">
 <p className="text-base py-3">{project.description}</p>
 </div>
 
@@ -199,11 +213,11 @@ index % 2 === 0 ? 'md:col-start-2' : ''
 {item.showText ? (
 <div className={`${
 index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'
-} flex flex-wrap justify-between gap-4`}>
+} flex flex-wrap justify-between items-center gap-4`}>
 <div className="p-4 max-w-md xl:max-w-lg">
 <p>{item.description}</p>
 </div>
-<div className="p-4 relative w-[320px] h-[260px] lg:w-[400px]  lg:h-[320px] grow">
+<div className={`p-4 relative w-full  ${item.size === 'large' ? 'h-[350px] lg:w-[481px] lg:h-[481px]' : 'h-[350px] lg:w-[320px] lg:h-[350px]'} grow`}>
 <Image 
 src={item.url}
 fill
@@ -303,7 +317,7 @@ alt={`Image ${index + 1}`} />
 // end proposal
 : 
 <div>
-<div className='py-4 relative mx-auto shadow-md  h-[300px] w-full  xl:max-w-[650px]  xl:w-[60%] mb-12'>
+<div className='py-4 relative mx-auto shadow-md  h-[300px] w-full  xl:max-w-[650px]  xl:w-[60%] mb-12 text-gray-700'>
 <Image 
 src={project.project_image}
 fill 
@@ -313,7 +327,7 @@ style={{objectFit:"cover"}}
 className='w-full h-full rounded-sm' 
 alt={`Image ${project.slug}`} />
 </div>
-<div className='flex flex-col text-center justify-center xl:text-start lg:justify-normal lg:flex-row gap-2'>
+<div className='flex flex-col text-center justify-center xl:text-start lg:justify-normal lg:flex-row gap-2 text-gray-700'>
 {/* left side */}
 <div className=' flex-wrap 2xl:max-w-screen-md  max-w-[650px] text-center justify-center lg:text-start lg:justify-normal'>
 <div className="py-4">
@@ -327,7 +341,7 @@ alt={`Image ${project.slug}`} />
 ))}
 </ul>
 </div>
-<div className="py-4">
+<div className="py-4 text-gray-700">
 <p className="text-base py-3">{project.description}</p>
 </div>
 
@@ -345,7 +359,7 @@ index % 2 === 0 ? 'md:col-start-2' : ''
 <div className={`${
 index % 2 === 0 ? 'flex-row-reverse' : 'flex-row'
 } block md:flex`}>
-<div className="p-4  max-w-[300px]">
+<div className="p-4  max-w-[300px] text-gray-700">
 <p>{item.description}</p>
 </div>
 <div className="p-4">
@@ -412,7 +426,7 @@ alt={`Image ${index + 1}`} />
 </div>
 {/* end proposal architectural design images */}
 
-<div className=''>
+<div className='text-gray-700'>
 <div className='p-4'>
 {!project.content && (
 <h2 className='text-base font-semibold text-black text-bold'>

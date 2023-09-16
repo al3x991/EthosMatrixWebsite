@@ -49,7 +49,7 @@ const [selectedMember, setSelectedMember] = useState(null);
 return (
 <div className="text-center py-16">
 
-<h1 className=" text-3xl  md:text-4xl font-bold relative inline-block capitalize">
+<h1 className=" text-3xl  md:text-4xl font-bold relative inline-block capitalize font-sans">
 Our Executive<span className=''>&nbsp;Team</span>
 <div className="w-8 h-1.5 bg-amber-500 absolute  top-11 left-0 transform -translate-x-0"></div>
 </h1>
@@ -72,8 +72,8 @@ onClick={() => openModal(index)}
  className="" />
     </div>
 
-<h3 className="text-xl font-semibold mb-1">{member.name}</h3>
-<p className="text-gray-500">{member.role}</p>
+<h3 className="text-xl font-semibold mb-1 font-sans">{member.name}</h3>
+<p className="text-gray-500 font-sans">{member.role}</p>
 </div>
 ))}
 </div>
@@ -95,10 +95,10 @@ onClick={() => openModal(index)}
  fill
  className=" rounded-md" />
     </div>
-              <div className=''>
-              <h2 className="text-xl font-semibold mb-1">{Teammembers[selectedMember].name}</h2>
-          <p className="text-gray-500">{Teammembers[selectedMember].role}</p>
-          <p className="mt-4">{Teammembers[selectedMember].bio}</p>
+              <div className=' font-sans'>
+              <h2 className="text-xl font-semibold mb-1 font-sans">{Teammembers[selectedMember].name}</h2>
+          <p className="text-gray-500 font-sans">{Teammembers[selectedMember].role}</p>
+          <p className="mt-4 font-sans">{Teammembers[selectedMember].bio}</p>
               </div>
          
           <div className="mt-4 absolute top-5 right-2 cursor-pointer rounded-md text-2xl text-slate-400 px-4 py-2" onClick={closeModal}>

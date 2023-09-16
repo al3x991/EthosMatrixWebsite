@@ -30,7 +30,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed w-full  z-50  transition-all duration-300 ${
+      className={`fixed  w-full  z-50  transition-all duration-300 ${
         menuOpen && window.scrollY > 0 ? 'bg-white' : '',
         scrolling ? 'shadow-md  bg-white text-black' : 'bg-transparent  text-white'
       }`}
@@ -64,10 +64,10 @@ const Navbar = () => {
           <Link href="/gallery" className="hover:text-amber-500">
             Gallery
           </Link>
-          <Link href="/Undercontruction" className="hover:text-amber-500">
+          <Link href="/blog" className="hover:text-amber-500">
             Blog
           </Link>
-          <Link href="/Undercontruction" className="hover:text-amber-500">
+          <Link href="/contact" className="hover:text-amber-500">
             Contact
           </Link>
           
@@ -139,10 +139,10 @@ const Navbar = () => {
           <Link href="/gallery" className="block px-4 py-8 text-xl text-gray-800">
             Gallery
           </Link>
-          <Link href="/Undercontruction" className="block px-4 py-8 text-xl text-gray-800">
+          <Link href="/blog" className="block px-4 py-8 text-xl text-gray-800">
             Blog
           </Link>
-          <Link href="/Undercontruction" className="block px-4 py-8 text-xl text-gray-800">
+          <Link href="/contact" className="block px-4 py-8 text-xl text-gray-800">
             Contact
           </Link>
         

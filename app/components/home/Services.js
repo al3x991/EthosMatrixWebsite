@@ -72,7 +72,7 @@ text: 'From concept to reality, we specialize in transforming land into thriving
 return (
 <div className="text-center py-16" ref={gridRef}>
   
-<h1 className=" text-3xl  md:text-4xl font-bold relative inline-block capitalize">
+<h1 className=" text-3xl  md:text-4xl font-bold relative inline-block capitalize text-gray-700">
 Our <span className=''>Services</span>
 <div className="w-8 h-1.5 bg-amber-500 absolute  top-11 left-0 transform -translate-x-0"></div>
 </h1>
@@ -91,8 +91,8 @@ className=' absolute'
 />
 </div>
 <div className='mt-4 lg:mt-0'>
-<h3 className="text-lg font-semibold lg:text-left">{service.title}</h3>
-<p className="mt-2 lg:text-left text-base">{service.text}</p>
+<h3 className="text-lg font-semibold lg:text-left text-gray-700">{service.title}</h3>
+<p className="mt-2 lg:text-left text-base text-gray-700">{service.text}</p>
 </div>
 </div>
 </div>

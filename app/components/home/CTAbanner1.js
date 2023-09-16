@@ -3,6 +3,7 @@
 import Image from "next/image"
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
+import Link from "next/link";
 
 const divStyle = {
     marginLeft: '16vw',
@@ -48,9 +49,9 @@ className="absolute bottom-0  lg:left-[5vw]  xl:left-[20vw]"
 Our Journey in <span className="text-color-primary">Craftsmanship</span>.</h2>
 <p className="my-5  text-sm md:text-base mb-12">
 Step into the heart of our company's evolution. Delve into the stories that have shaped our identity, from humble beginnings to becoming industry innovators. Explore our values, culture, and the team that fuels our passion for creating exceptional spaces.</p>
-<button className="quote-btn" style={primaryBTNwhite}>
+<Link href="/about" className="quote-btn" style={primaryBTNwhite}>
             Learn More
-          </button>
+          </Link>
 </div>
 </div>
 

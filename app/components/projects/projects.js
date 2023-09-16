@@ -44,9 +44,9 @@ className="w-full h-48 object-cover" />
 </div>
 <div className="p-4">
 <div className="flex items-center mb-2">
-<span className="text-base text=black  font-medium">{project.title}</span>
+<span className="text-base text-gray-700  font-semibold">{project.title}</span>
 </div>
-<p className="text-sm text-gray-500">{project.shortDescription}</p>
+<p className="text-sm text-gray-700">{project.shortDescription}</p>
 <div className='flex flex-row gap-1  items-centers py-4 text-slate-300"'>
 {project.category === 'Construction' && <BsBricks className="text-sm mr-2 text-slate-400"/>}
 {project.category === 'Renovation' && <HandymanOutlined className="text-sm mr-2 text-slate-400"/>}
@@ -62,19 +62,19 @@ return (
 <div className='container  py-16 max-w-screen-lg xl:max-w-screen-lg  2xl:max-w-screen-xl mx-auto px-10'>
 {/* Category Filter */}
 <div className="mb-8 mt-10">
-<button onClick={() => setCategoryFilter('All')} className={categoryFilter === 'All' ? 'bg-amber-500 text-white px-4 py-2 mr-2 rounded-lg' : 'bg-transparent border border-amber-500   text-black px-4 py-2 mr-2 rounded-lg'}>
+<button onClick={() => setCategoryFilter('All')} className={categoryFilter === 'All' ? 'bg-amber-500 text-white px-4 py-2 mr-2 rounded-lg' : 'bg-transparent border border-slate-200   text-black px-4 py-2 mr-2 rounded-lg'}>
 All
 </button>
-<button onClick={() => setCategoryFilter('Construction')} className={categoryFilter === 'Construction' ? 'bg-amber-500 text-white px-4 py-2 mr-2 rounded-lg' : 'bg-transparent border border-amber-500 text-black px-4 py-2 mr-2 rounded-lg'}>
+<button onClick={() => setCategoryFilter('Construction')} className={categoryFilter === 'Construction' ? 'bg-amber-500 text-white px-4 py-2 mr-2 rounded-lg' : 'bg-transparent border border-slate-200 text-black px-4 py-2 mr-2 rounded-lg'}>
 Construction
 </button>
-<button onClick={() => setCategoryFilter('Renovation')} className={categoryFilter === 'Renovation' ? 'bg-amber-500 text-white px-4 py-2 mr-2 rounded-lg' : 'bg-transparent border border-amber-500 text-black px-4 py-2 mr-2 rounded-lg'}>
+<button onClick={() => setCategoryFilter('Renovation')} className={categoryFilter === 'Renovation' ? 'bg-amber-500 text-white px-4 py-2 mr-2 rounded-lg' : 'bg-transparent border border-slate-200 text-black px-4 py-2 mr-2 rounded-lg'}>
 Renovation
 </button>
-<button onClick={() => setCategoryFilter('Architectural Design')} className={categoryFilter === 'Architectural Design' ? 'bg-amber-500 text-white px-4 py-2 mr-2 rounded-lg' : 'bg-transparent border border-amber-500 text-black px-4 py-2 mr-2 rounded-lg'}>
+<button onClick={() => setCategoryFilter('Architectural Design')} className={categoryFilter === 'Architectural Design' ? 'bg-amber-500 text-white px-4 py-2 mr-2 rounded-lg' : 'bg-transparent border border-slate-200 text-black px-4 py-2 mr-2 rounded-lg'}>
 Architectural Design
 </button>
-<button onClick={() => setCategoryFilter('Real Estate')} className={categoryFilter === 'Real Estate' ? 'bg-amber-500 text-white px-4 py-2 rounded-lg' : 'bg-transparent border border-amber-500 text-black px-4 py-2 rounded-lg'}>
+<button onClick={() => setCategoryFilter('Real Estate')} className={categoryFilter === 'Real Estate' ? 'bg-amber-500 text-white px-4 py-2 rounded-lg' : 'bg-transparent border border-slate-200 text-black px-4 py-2 rounded-lg'}>
 Real Estate
 </button>
 </div>
@@ -87,7 +87,7 @@ Real Estate
 {/* Load More Button */}
 {projectsToShow < filteredProjects.length && (
 <div className="mt-12 text-center">
-<button onClick={handleLoadMore} className="bg-amber-500 text-white px-4 py-2 rounded-lg">
+<button onClick={handleLoadMore} className="bg-amber-500 text-white px-4 py-2 rounded-lg  hover:bg-black">
 Load More
 </button>
 </div>

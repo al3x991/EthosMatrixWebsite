@@ -4,27 +4,28 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
+import Link from 'next/link';
 
 const FPHome = () => {
-  const [ref, inView] = useInView({
-    triggerOnce: true,
-    threshold: 0.5,
-  });
+ 
 const cardsData = [
 {
 imageSrc: 'complete00.webp',
+slug: 'chapel-hill',
 title: 'Chapel Hill - Office',
 subtitle: 'Architectural Design & Project Management',
 description: 'Discover our noteworthy office building project, where design brilliance meets construction expertise. A collaborative effort that delivers a modern, functional space, tailored to our client`s vision',
 },
 {
 imageSrc: 'houserenovation.webp',
+slug: 'victoria-island-house-renovation',
 title: 'House Renovation',
 subtitle: 'Renovation - Private property',
 description: 'Revived a Lekki residence with meticulous reconstruction, blending modern amenities while retaining its distinctive charm.',
 },
 {
 imageSrc: 'lab1.webp',
+slug: 'elizade-university-hostel',
 title: 'University Hostel',
 subtitle: 'Construction & Project Management',
 description: 'We proudly constructed a state-of-the-art engineering lab for a renowned university in Ondo State. This achievement showcases our dedication to creating advanced learning spaces that inspire and support academic growth.',
@@ -50,13 +51,14 @@ blurDataURL: "data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAAB
 <div className=' ml-5 pt-20 pb-5 text-white'>
 <h1 className=" text-3xl lg:text-4xl font-bold relative inline-block capitalize">
 Featured <span className='text-color-primary'>Projects</span>
-<div className="w-8 h-1.5 bg-amber-500 absolute  top-11 left-0 transform -translate-x-0"></div>
+<div className="w-8 h-1.5 bg-black absolute  top-11 left-0 transform -translate-x-0"></div>
 </h1>
 </div>
 <div className="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 pb-20">
 {cardsData.map((card, index) => (
  
-<div
+<Link
+href={`./projects/${card.slug}`}
 key={index}
 className="relative  w-auto p-4 transition duration-300 transform hover:scale-105"
 onMouseEnter={() => setHoveredCard(index)}
@@ -78,7 +80,7 @@ hoveredCard === index ? 'opacity-0' : 'opacity-100'
 <h2 className="text-xl font-bold mt-2">{card.title}</h2>
 </div>
 {hoveredCard === index && (
-<div className="absolute inset-0 bg-amber-600 opacity-80"></div>
+<div className="absolute inset-0 bg-black opacity-80"></div>
 )}
 </div>
 <div
@@ -90,14 +92,14 @@ hoveredCard === index ? 'opacity-100' : 'opacity-0'
 <h2 className="text-xl font-bold mt-2">{card.title}</h2>
 {hoveredCard === index ? (
 <div className='mx-auto px-10'>
-<p className="mt-2  text-xs hidden xl:block">{card.description}</p>
-<button className="mt-4 border border-white  bg-transparent text-white py-1 px-4  hover:border-none hover:text-black hover:bg-white focus:outline-none">
+<p className="mt-2 mb-4  text-xs hidden xl:block">{card.description}</p>
+<button  className="mt-4 border border-white  bg-transparent text-white py-1 px-4  hover:border-none hover:text-black hover:bg-white focus:outline-none">
 View More
 </button>
 </div>
 ) : null}
 </div>
-</div>
+</Link>
 
 ))}
 </div>

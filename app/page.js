@@ -8,7 +8,7 @@ import CTAbanner1 from './components/home/CTAbanner1'
 import BeforeAfter from './components/home/BeforeAfter'
 import Welcome from './components/home/Welcome'
 import FPHome from './components/home/FPHome'
-import FBHome from './components/home/FBHome'
+import Bloghome from './components/home/Bloghome'
 import Footer from './components/Footer'
 import { motion } from 'framer-motion'
 
@@ -24,7 +24,7 @@ export default function Home() {
 <CTAbanner1/>
 <BeforeAfter />
 <FPHome/>
-<FBHome/>
+<Bloghome/>
 <Footer/>
     </motion.main>
   )

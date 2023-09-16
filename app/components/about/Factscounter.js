@@ -32,7 +32,7 @@ key={index}
 className={`text-center p-4 relative`}>
 <div className='flex flex-col  justify-center items-center text-center'>
 {isVisible && (
-<div className='flex text-5xl font-bold'><CountUp className='' start={0} end={targetNumber} duration={3} /><p style={{color: '#F5A018'}}>+</p>
+<div className='flex text-5xl font-bold text-gray-700'><CountUp className='' start={0} end={targetNumber} duration={3} /><p style={{color: '#F5A018'}}>+</p>
 </div>
 )}
 <p className="text-base mb-2">{title}</p>

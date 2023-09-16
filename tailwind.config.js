@@ -15,12 +15,15 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+       fontFamily: {
+        sans: ['var(--font-nunito-sans)'],
+      },
     },
   },
   plugins: [
     new GoogleFontsPlugin({
       fonts: [
-        { family: 'EB Garamond', variants: ['400', '700'] },
+        { family: 'EB Garamond', variants: ['400', '500', '600', '700'] },
         // Add more font families if needed
       ],
     }),

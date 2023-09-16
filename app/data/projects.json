@@ -101,60 +101,11 @@
           "/assets/images/projects/elizade university/flow04.webp",
           "/assets/images/projects/elizade university/flow05.webp",
           "/assets/images/projects/elizade university/flow06.webp",
-          "/assets/images/projects/elizade university/flow07.webp",
-          "/assets/images/projects/elizade university/flow08.webp",
-          "/assets/images/projects/elizade university/flow11.webp",
           "/assets/images/projects/elizade university/flow12.webp"
         ],
         "content":  [ ]
       },
-      {
-        "slug": "The-Tritowers",
-        "title": "The Tri-towers",
-        "category": "Architectural Design",
-        "client": "N/A",
-        "scopes": ["Floor Plan", "Agricultural Engineering", "Project Management", "Land Surveying", "Security", "Environmental Impact Assessment"],
-        "location": "N/A",
-        "date": "2019",
-        "why": "Design",
-        "description": "We are thrilled to present our visionary architectural design for a mixed living area. a multifaceted project that embodies the essence of modern urban living. This visionary development harmoniously integrates three towering structures, each dedicated to enhancing various facets of contemporary life.",
-        "shortDescription": "A modern urban project that seamlessly combines three distinct towers, enhancing diverse aspects of contemporary living.",
-        "coverImage": "/assets/images/design/The Tritowers/cover.webp",
-        "project_image": "/assets/images/design/The Tritowers/cover00.webp",
-        "images": [
-              "/assets/images/design/The Tritowers/0.webp",
-              "/assets/images/design/The Tritowers/4.webp"
-        ],
-        "image_flow": [
-          "/assets/images/design/The Tritowers/3.webp",
-          "/assets/images/design/The Tritowers/0.webp",
-          "/assets/images/design/The Tritowers/85.webp",
-          "/assets/images/design/The Tritowers/86.webp"
-    ],
-        "content": [
-          {
-              "url": "/assets/images/design/The Tritowers/56.webp",
-              "description": "At the heart of The Tri-Towers lies a world of diversity and convenience. Discover an array of amenities that elevate your everyday experiences, including a captivating gallery area, enticing restaurants, a serene pool area, communal spaces for connection, a luxurious ballroom for events, banking services, a supermarket for daily needs, a pharmacy for health and wellness, and a residential area that redefines comfort and style.",
-              "showText": true
-          },
-          {
-              "url": "/assets/images/design/The Tritowers/86.webp",
-              "description": "The pool area is a tranquil oasis where you can unwind and bask in the pleasures of leisure. Take a refreshing dip, lounge by the pool, or simply soak up the sun in this serene retreat.",
-              "showText": true
-          },
-          {
-              "url": "/assets/images/design/The Tritowers/85.webp",
-              "description": "With banking services, a supermarket, and a pharmacy within the project, you'll find convenience at every turn. Whether you're managing finances, stocking up on essentials, or prioritizing wellness, The Tri-Towers has you covered.",
-              "showText": true
-          },
-          {
-              "url": "/assets/images/design/The Tritowers/33.webp",
-              "description": "Image 5 description",
-              "showText": false
-          }
-      ]
-    },
-      {
+         {
         "slug": "elizade-university-engineeering-lab",
         "title": "University Engineering Lab",
         "category": "Construction",
@@ -192,67 +143,249 @@
         "content":  [ ]
       },
       {
-        "slug": "GERARD3",
-        "title": "Project Mix 3",
+        "slug": "The-Tritowers",
+        "title": "The Tri-towers",
         "category": "Architectural Design",
-        "client": "N/A",
+        "client": "K-Box",
         "scopes": ["Floor Plan", "Agricultural Engineering", "Project Management", "Land Surveying", "Security", "Environmental Impact Assessment"],
         "location": "N/A",
         "date": "2019",
-        "why": "Design",
-        "description": "At the heart of urban living and modernity, we are proud to introduce our ambitious mixed living area design project. Nestled in a prime location, our design seamlessly integrates residential bliss, vibrant commercial spaces, a serene plaza, ample parking, and a luxurious pool area, all designed to enhance your lifestyle and provide a diverse and inclusive community experience.",
-        "shortDescription": "Introducing our diverse mixed living project, blending residential, commercial, plaza, parking, and pool amenities for urban living.",
-        "coverImage": "/assets/images/design/GERARD3/cover.webp",
-        "project_image": "/assets/images/design/GERARD3/cover00.webp",
+        "why": "Concept",
+        "description": "We are thrilled to present our visionary architectural design for a mixed living area. a multifaceted project that embodies the essence of modern urban living. This visionary development harmoniously integrates three towering structures, each dedicated to enhancing various facets of contemporary life.",
+        "shortDescription": "A modern urban project that seamlessly combines three distinct towers, enhancing diverse aspects of contemporary living.",
+        "coverImage": "/assets/images/design/The Tritowers/cover.webp",
+        "project_image": "/assets/images/design/The Tritowers/cover00.webp",
         "images": [
-              "/assets/images/design/GERARD3/dg01.webp",
-              "/assets/images/design/GERARD3/dg02.webp"
-             
+              "/assets/images/design/The Tritowers/0.webp",
+              "/assets/images/design/The Tritowers/4.webp"
         ],
         "image_flow": [
-          "/assets/images/design/GERARD3/dg04.webp",
-          "/assets/images/design/GERARD3/dg05.webp",
-          "/assets/images/design/GERARD3/dg06.webp"
-          
+          "/assets/images/design/The Tritowers/3.webp",
+          "/assets/images/design/The Tritowers/0.webp",
+          "/assets/images/design/The Tritowers/85.webp",
+          "/assets/images/design/The Tritowers/86.webp"
     ],
         "content": [
           {
-            "url": "/assets/images/design/GERARD3/image00.webp",
-            "description": "Our high-level diagram offers a top view of the project, providing a comprehensive overview of this modern living area and highlighting its key features. This bird's eye perspective reveals the harmonious integration of buildings and amenities, forming a dynamic and vibrant community.",
-            "showText": true
-        },
-          {
-              "url": "/assets/images/design/GERARD3/dg01.webp",
-              "description": "Elegance is the essence of this room. The color palette, the tasteful decor, and the carefully selected artwork all contribute to an atmosphere of sophistication. Each piece seems to tell a story, adding depth and character to the space.",
-              "showText": true
+              "url": "/assets/images/design/The Tritowers/56.webp",
+              "description": "At the heart of The Tri-Towers lies a world of diversity and convenience. Discover an array of amenities that elevate your everyday experiences, including a captivating gallery area, enticing restaurants, a serene pool area, communal spaces for connection, a luxurious ballroom for events, banking services, a supermarket for daily needs, a pharmacy for health and wellness, and a residential area that redefines comfort and style.",
+               "showText": true,
+              "size": " "
+
           },
           {
-            "url": "/assets/images/design/GERARD3/dg02.webp",
-              "description": "Charm and simplicity are the defining features of this bedroom's design. Soft hues and unassuming decor create an atmosphere of understated elegance. It's a space that celebrates the beauty found in life's quiet moments.",
-              "showText": true
+              "url": "/assets/images/design/The Tritowers/86.webp",
+              "description": "The pool area is a tranquil oasis where you can unwind and bask in the pleasures of leisure. Take a refreshing dip, lounge by the pool, or simply soak up the sun in this serene retreat.",
+               "showText": true,
+              "size": " "
+
           },
           {
-            "url": "/assets/images/design/GERARD3/dg03.webp",
-              "description": "Natural light floods the bathroom, creating a bright and inviting ambiance. Large windows or strategically placed skylights bring the beauty of the outdoors inside. It's a refreshing space that allows you to connect with nature even as you go about your daily routine.",
-              "showText": true
+              "url": "/assets/images/design/The Tritowers/85.webp",
+              "description": "With banking services, a supermarket, and a pharmacy within the project, you'll find convenience at every turn. Whether you're managing finances, stocking up on essentials, or prioritizing wellness, The Tri-Towers has you covered.",
+               "showText": true,
+              "size": " "
+
           },
           {
-            "url": "/assets/images/design/GERARD3/dg04.webp",
+              "url": "/assets/images/design/The Tritowers/33.webp",
               "description": "Image 5 description",
-              "showText": false
-          },
-          {
-            "url": "/assets/images/design/GERARD3/dg05.webp",
-              "description": "Image 5 description",
-              "showText": false
-          },
-          {
-            "url": "/assets/images/design/GERARD3/dg06.webp",
-              "description": "Image 5 description",
-              "showText": false
+               "showText": false,
+              "size": " "
+
           }
       ]
     },
+    {
+      "slug": "The-Venue",
+      "title": "The Venue",
+      "category": "Architectural Design",
+      "client": "K-Box",
+      "scopes": ["Floor Plan",  "Project Management", "Land Surveying", "Security", "Environmental Impact Assessment"],
+      "location": "N/A",
+      "date": "2019",
+      "why": "Concept",
+      "description": "The art of transformation often begins with reimagining what already exists. In the heart of Ogba Acra, Ikeja, a hidden industrial gem is about to undergo a remarkable metamorphosis. Together with K-box Construction and Design, we are excited to present 'The Venue,' a visionary project that aims to revitalize an old industrial building and turn it into a dynamic multi-purpose center.",
+      "shortDescription": "Explore The Venue, where modern urban living meets convenience and comfort in a dynamic community.",
+      "coverImage": "/assets/images/design/The Venue/cover.webp",
+      "project_image": "/assets/images/design/The Venue/dg08.webp",
+      "images": [
+            "/assets/images/design/The Venue/dg01.webp",
+            "/assets/images/design/The Venue/dg02.webp"
+           
+      ],
+      "image_flow": [
+        "/assets/images/design/The Venue/dg03.webp",
+        "/assets/images/design/The Venue/dg10.webp"
+        
+  ],
+      "content": [
+        {
+          "url": "/assets/images/design/The Venue/dg01.webp",
+          "description": "'The Venue' design concept is an ode to the industrial history of Ogba Acra. The existing structure, with its raw and rugged charm, will be preserved and transformed into a modern haven that pays homage to its past while embracing the future.",
+           "showText": true,
+            "size": " "
+      },
+        {
+            "url": "/assets/images/design/The Venue/dg02.webp",
+            "description": "The floor plan of 'The Venue' is a harmonious fusion of historical charm and modern functionality. It begins with a grand entrance featuring industrial aesthetics, leading visitors into the promenade (common area) where every space of the venue can be accessed. ",
+             "showText": true,
+            "size": " "
+        },
+        {
+          "url": "/assets/images/design/The Venue/summary.webp",
+            "description": " ",
+             "showText": true,
+            "size": "large"
+        }
+    ]
+  },
+  {
+    "slug": "GERARD3",
+    "title": "Project Mix 3",
+    "category": "Architectural Design",
+    "client": "K-Box",
+    "scopes": ["Floor Plan", "Project Management", "Land Surveying", "Security", "Environmental Impact Assessment"],
+    "location": "N/A",
+    "date": "2019",
+    "why": "Concept",
+    "description": "At the heart of urban living and modernity, we are proud to introduce our ambitious mixed living area design project. Nestled in a prime location, our design seamlessly integrates residential bliss, vibrant commercial spaces, a serene plaza, ample parking, and a luxurious pool area, all designed to enhance your lifestyle and provide a diverse and inclusive community experience.",
+    "shortDescription": "Introducing our diverse mixed living project, blending residential, commercial, plaza, parking, and pool amenities for urban living.",
+    "coverImage": "/assets/images/design/GERARD3/cover.webp",
+    "project_image": "/assets/images/design/GERARD3/cover00.webp",
+    "images": [
+          "/assets/images/design/GERARD3/dg01.webp",
+          "/assets/images/design/GERARD3/dg02.webp"
+         
+    ],
+    "image_flow": [
+      "/assets/images/design/GERARD3/dg04.webp",
+      "/assets/images/design/GERARD3/dg05.webp",
+      "/assets/images/design/GERARD3/dg06.webp"
+      
+],
+    "content": [
+      {
+        "url": "/assets/images/design/GERARD3/image00.webp",
+        "description": "Our high-level diagram offers a top view of the project, providing a comprehensive overview of this modern living area and highlighting its key features. This bird's eye perspective reveals the harmonious integration of buildings and amenities, forming a dynamic and vibrant community.",
+         "showText": true,
+          "size": " "
+
+    },
+      {
+          "url": "/assets/images/design/GERARD3/dg01.webp",
+          "description": "Elegance is the essence of this room. The color palette, the tasteful decor, and the carefully selected artwork all contribute to an atmosphere of sophistication. Each piece seems to tell a story, adding depth and character to the space.",
+           "showText": true,
+          "size": " "
+
+      },
+      {
+        "url": "/assets/images/design/GERARD3/dg02.webp",
+          "description": "Charm and simplicity are the defining features of this bedroom's design. Soft hues and unassuming decor create an atmosphere of understated elegance. It's a space that celebrates the beauty found in life's quiet moments.",
+           "showText": true,
+          "size": " "
+
+      },
+      {
+        "url": "/assets/images/design/GERARD3/dg03.webp",
+          "description": "Natural light floods the bathroom, creating a bright and inviting ambiance. Large windows or strategically placed skylights bring the beauty of the outdoors inside. It's a refreshing space that allows you to connect with nature even as you go about your daily routine.",
+           "showText": true,
+          "size": " "
+
+      },
+      {
+        "url": "/assets/images/design/GERARD3/dg04.webp",
+          "description": "Image 5 description",
+           "showText": false,
+          "size": " "
+
+      },
+      {
+        "url": "/assets/images/design/GERARD3/dg05.webp",
+          "description": "Image 5 description",
+           "showText": false,
+          "size": " "
+
+      },
+      {
+        "url": "/assets/images/design/GERARD3/dg06.webp",
+          "description": "Image 5 description",
+           "showText": false,
+          "size": " "
+
+      }
+  ]
+},
+{
+  "slug": "GERARD44",
+  "title": "Project Mix 44",
+  "category": "Architectural Design",
+  "client": "K-Box",
+  "scopes": ["Floor Plan", "Project Management", "Land Surveying", "Security", "Environmental Impact Assessment"],
+  "location": "N/A",
+  "date": "2019",
+  "why": "Concept",
+  "description": "Welcome to our distinctive mixed living area design project, where we've embarked on a journey to seamlessly weave together diverse elements, all converging to shape a truly harmonious and enriching community experience.",
+  "shortDescription": "Welcome to our unique mixed living project, seamlessly blending elements for a harmonious community experience.",
+  "coverImage": "/assets/images/design/GERARD44/cover.webp",
+  "project_image": "/assets/images/design/GERARD44/cover00.webp",
+  "images": [
+        "/assets/images/design/GERARD44/dg01.webp",
+        "/assets/images/design/GERARD44/dg02.webp"
+  ],
+  "image_flow": [
+    "/assets/images/design/GERARD44/dg01.webp",
+    "/assets/images/design/GERARD44/dg02.webp",
+    "/assets/images/design/GERARD44/dg03.webp",
+        "/assets/images/design/GERARD44/cover.webp"
+],
+  "content": [
+    {
+      "url": "/assets/images/design/GERARD44/image01.webp",
+      "description": "Our high-level diagram offers a captivating aerial view of the project, providing a comprehensive overview of this exceptional urban development while highlighting its prominent features. This panoramic vista showcases the fusion of architectural brilliance and urban conveniences within a bustling metropolitan landscape.",
+       "showText": true,
+        "size": " "
+
+  },
+    {
+      "url": "/assets/images/design/GERARD44/dg05.webp",
+        "description": "Efficiency is a defining feature of our design philosophy. While we prioritize aesthetics, we also believe that every design element should serve a purpose. The reception area is a harmonious symphony of form and function, where every detail contributes to the overall experience.",
+         "showText": true,
+        "size": " "
+
+    },
+    
+    {
+      "url": "/assets/images/design/GERARD44/dg01.webp",
+        "description": "The playground is a vibrant hub of activity, designed to spark joy and creativity in children and bring families together. As you step into this lively space, you'll find an array of play equipment that invites kids to explore, climb, swing, and slide. Laughter and the sound of playful chatter fill the air as children embark on adventures, make new friends, and create cherished memories.",
+         "showText": true,
+        "size": " "
+
+    },
+    {
+      "url": "/assets/images/design/GERARD44/dg02.webp",
+        "description": "The restaurant area captivates with its design elegance. Modernity merges seamlessly with timeless aesthetics, creating an atmosphere that transcends the ordinary. Every design element, from the lighting to the furnishings, has been meticulously curated to ensure an experience that is both visually stunning and emotionally resonant. It's a space where form and function coexist harmoniously, where efficiency meets ambiance, and where every detail serves a purpose. ",
+         "showText": true,
+        "size": " "
+
+    },
+    {
+      "url": "/assets/images/design/GERARD44/dg03.webp",
+        "description": "Modern design elements blend seamlessly with opulent touches, creating an ambiance that exudes sophistication. From the moment you step into this space, you're enveloped in an atmosphere of style and comfort. Every detail, from the layout to the choice of materials, has been meticulously considered to offer residents a living experience that is both visually captivating and emotionally gratifying. ",
+         "showText": true,
+        "size": " "
+
+    },
+    {
+      "url": "/assets/images/design/GERARD44/dg04.webp",
+        "description": "The penthouse dining area is a showcase of elegance. It seamlessly blends contemporary design with luxurious details, creating a dining space that's as visually pleasing as it is inviting. ",
+         "showText": true,
+        "size": " "
+    }
+]
+},
+   
+      
       {
         "slug": "GRA-Ikeja-House-Renovation",
         "title": "GRA Ikeja House Remodeling",
@@ -296,63 +429,7 @@
         ],
         "content":  [ ]
       },
-      {
-        "slug": "GERARD44",
-        "title": "Project Mix 44",
-        "category": "Architectural Design",
-        "client": "N/A",
-        "scopes": ["Floor Plan", "Agricultural Engineering", "Project Management", "Land Surveying", "Security", "Environmental Impact Assessment"],
-        "location": "N/A",
-        "date": "2019",
-        "why": "Design",
-        "description": "Welcome to our distinctive mixed living area design project, where we've embarked on a journey to seamlessly weave together diverse elements, all converging to shape a truly harmonious and enriching community experience.",
-        "shortDescription": "Welcome to our unique mixed living project, seamlessly blending elements for a harmonious community experience.",
-        "coverImage": "/assets/images/design/GERARD44/cover.webp",
-        "project_image": "/assets/images/design/GERARD44/cover00.webp",
-        "images": [
-              "/assets/images/design/GERARD44/dg01.webp",
-              "/assets/images/design/GERARD44/dg02.webp"
-        ],
-        "image_flow": [
-          "/assets/images/design/GERARD44/dg01.webp",
-          "/assets/images/design/GERARD44/dg02.webp",
-          "/assets/images/design/GERARD44/dg03.webp",
-              "/assets/images/design/GERARD44/cover.webp"
-    ],
-        "content": [
-          {
-            "url": "/assets/images/design/GERARD44/image01.webp",
-            "description": "Our high-level diagram offers a captivating aerial view of the project, providing a comprehensive overview of this exceptional urban development while highlighting its prominent features. This panoramic vista showcases the fusion of architectural brilliance and urban conveniences within a bustling metropolitan landscape.",
-            "showText": true
-        },
-          {
-            "url": "/assets/images/design/GERARD44/dg05.webp",
-              "description": "Efficiency is a defining feature of our design philosophy. While we prioritize aesthetics, we also believe that every design element should serve a purpose. The reception area is a harmonious symphony of form and function, where every detail contributes to the overall experience.",
-              "showText": true
-          },
-          
-          {
-            "url": "/assets/images/design/GERARD44/dg01.webp",
-              "description": "The playground is a vibrant hub of activity, designed to spark joy and creativity in children and bring families together. As you step into this lively space, you'll find an array of play equipment that invites kids to explore, climb, swing, and slide. Laughter and the sound of playful chatter fill the air as children embark on adventures, make new friends, and create cherished memories.",
-              "showText": true
-          },
-          {
-            "url": "/assets/images/design/GERARD44/dg02.webp",
-              "description": "The restaurant area captivates with its design elegance. Modernity merges seamlessly with timeless aesthetics, creating an atmosphere that transcends the ordinary. Every design element, from the lighting to the furnishings, has been meticulously curated to ensure an experience that is both visually stunning and emotionally resonant. It's a space where form and function coexist harmoniously, where efficiency meets ambiance, and where every detail serves a purpose. ",
-              "showText": true
-          },
-          {
-            "url": "/assets/images/design/GERARD44/dg03.webp",
-              "description": "Modern design elements blend seamlessly with opulent touches, creating an ambiance that exudes sophistication. From the moment you step into this space, you're enveloped in an atmosphere of style and comfort. Every detail, from the layout to the choice of materials, has been meticulously considered to offer residents a living experience that is both visually captivating and emotionally gratifying. ",
-              "showText": true
-          },
-          {
-            "url": "/assets/images/design/GERARD44/dg04.webp",
-              "description": "The penthouse dining area is a showcase of elegance. It seamlessly blends contemporary design with luxurious details, creating a dining space that's as visually pleasing as it is inviting. ",
-              "showText": true
-          }
-      ]
-    },
+      
       {
         "slug": "smoking-hill-fencing",
         "title": "Smoking Hill Fencing",
@@ -382,6 +459,95 @@
           "/assets/images/projects/ondo farm fencing/flow08.webp"
         ],
         "content":  [ ]
+      },
+      {
+        "slug": "Beach-front",
+        "title": "Beach Front",
+        "category": "Architectural Design",
+        "client": "N/A",
+        "scopes": ["Floor Plan", "Project Management", "Design Concept", "Commercial Development", "Landscape and Environmental Sustainability"],
+        "location": "N/A",
+        "date": "2023",
+        "why": "Beach Front Concept",
+        "description": "Nestled within a pristine expanse spanning 7.5 hectares, with a breathtaking 400 meters of sun-kissed waterfront, lies a coastal jewel waiting to be unveiled. This untouched canvas represents a rare opportunity for transformation, and we are thrilled to introduce you to our visionary project: The Beachfront.",
+        "shortDescription": "A visionary coastal project that beckons with its impressive 400 meters of sun-kissed waterfront. This extraordinary venture invites you to explore its unique offerings and boundless opportunities.",
+        "coverImage": "/assets/images/design/Beach-front/cover02.webp",
+        "project_image": "/assets/images/design/Beach-front/cover01.webp",
+        "images": [
+              "/assets/images/design/Beach-front/dg01.webp",
+              "/assets/images/design/Beach-front/dg02.webp"
+        ],
+        "image_flow": [
+          "/assets/images/design/Beach-front/flow01.webp",
+          "/assets/images/design/Beach-front/flow02.webp",
+          "/assets/images/design/Beach-front/flow03.webp",
+              "/assets/images/design/Beach-front/flow04.webp"
+      ],
+        "content": [
+          {
+            "url": "/assets/images/design/Beach-front/dg01.webp",
+            "description": "In the residential area, there are 1468 parking units and in the commercial area there are 386 parking units.The services area contains 2 Water treatment plants and 2 boreholes with generators and gas plants. Each Building also has 2 Water tanks underground to serve as water supply for the building.",
+             "showText": true,
+              "size": " "
+      
+        },
+          {
+            "url": "/assets/images/design/Beach-front/dg02.webp",
+              "description": "We are thrilled to introduce our luxurious beachfront residential development, where opulence meets the breathtaking beauty of the shoreline. Our design has been carefully crafted to ensure uninterrupted views of the beachfront from every room, offering you an unparalleled living experience. Within our prestigious building, you will discover a range of luxurious apartments designed to cater to your unique lifestyle preferences. From an expansive 4-bedroom penthouses to intimate 1-bedroom residences, each unit has been thoughtfully planned to optimize space, comfort, and of course, the awe-inspiring views of the beachfront.",
+               "showText": true,
+              "size": " "
+      
+          },
+          
+          {
+            "url": "/assets/images/design/Beach-front/dg03.webp",
+              "description": "Every apartment boasts private balconies or terraces, providing an extension of your living space and serving as private sanctuaries with unobstructed views of the beachfront. Whether you prefer to bask in the golden rays of the sun or revel in the serenity of the moonlit ocean, these outdoor areas offer an exclusive vantage point to connect with nature's splendor.",
+               "showText": true,
+              "size": " "
+      
+          },
+          {
+            "url": "/assets/images/design/Beach-front/img01.webp",
+              "description": " ",
+               "showText": true,
+              "size": "large"
+      
+          },
+           {
+            "url": "/assets/images/design/Beach-front/img02.webp",
+              "description": " ",
+               "showText": true,
+              "size": "large"
+      
+          },
+           {
+            "url": "/assets/images/design/Beach-front/img03.webp",
+              "description": " ",
+               "showText": true,
+              "size": "large"
+      
+          },
+          {
+            "url": "/assets/images/design/Beach-front/dg04.webp",
+              "description": "Our proposed design concept for the beachfront property aims to create a visually striking and inviting space that seamlessly integrates with the surrounding aquatic area. By incorporating a wave facade, we seek to capture the essence of the ocean and create a unique aesthetic that attracts more users to the building. Here are the key elements of our design concept: (I) Wave-Inspired Architecture: The building's facade will feature undulating curves and smooth lines reminiscent of ocean waves. The facade materials will include reflective surfaces and glass panels strategically placed to mimic the play of light on water. This design approach will create a dynamic and captivating exterior, evoking a sense of movement and fluidity. (II) Seamless Indoor-Outdoor Integration: To optimize the connection between the building and its beachfront location, we will prioritize creating a seamless transition between indoor and outdoor spaces. Large sliding glass doors and floor-to-ceiling windows will allow ample natural light to flood the interior while providing breathtaking views of the ocean. Outdoor terraces, balconies to hide AC Units, and a rooftop lounge will provide additional spaces for visitors to relax and enjoy the coastal surroundings.",
+               "showText": true,
+              "size": " "
+      
+          },
+          {
+            "url": "/assets/images/design/Beach-front/dg05.webp",
+              "description": " ",
+               "showText": true,
+              "size": "large"
+          },
+              {
+            "url": "/assets/images/design/Beach-front/dg06.webp",
+              "description": " ",
+               "showText": true,
+              "size": "large"
+          }
+      ]
       }
+    
     ]
   }

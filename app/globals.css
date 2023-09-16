@@ -33,7 +33,7 @@
 
 /* Hover styles for the thumb */
 ::-webkit-scrollbar-thumb:hover {
-  background: #ffbb54;
+  background: #181818;
 }
 
 
@@ -75,6 +75,25 @@ body {
   background: #F5A018;
   color: #ffffff;
 }
+.border-alt-btn{
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  font-family: Arial;
+  width: 165px;
+  color: #181818;
+  font-size: 16px;
+ background: transparent;
+ border: 1px solid #F5A018;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.border-alt-btn:hover {
+  border: none;
+  background: #F5A018;
+  color: #ffffff;
+}
 .border-btn2{
   -webkit-border-radius: 4;
   -moz-border-radius: 4;
@@ -101,7 +120,7 @@ body {
   padding: 6px 12px !important;
   -webkit-border-radius: 4;
   -moz-border-radius: 4;
-  color: #181819;
+  color: #ffffff;
   font-size: 16px;
  background-color: #F5A018;
   padding: 0px 10px;
@@ -109,8 +128,8 @@ body {
 }
 
 .quote-btn:hover {
-  background-color: #ffbb54;
-  color: #181819;
+  background-color: #181818;
+ 
 }
 
 .small-btn{
