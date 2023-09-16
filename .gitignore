@@ -36,5 +36,3 @@ next-env.d.ts
 
 # sanity node_modules
 /sanity/node_modules
-/.sanity
-/sanity
