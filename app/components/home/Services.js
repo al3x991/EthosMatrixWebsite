@@ -1,0 +1,108 @@
+"use client";
+
+
+import React, { useEffect, useRef } from 'react';
+import Image from 'next/image';
+import { motion } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
+
+
+const Services = () => {
+
+const gridRef = useRef(null);
+
+useEffect(() => {
+const observer = new IntersectionObserver(
+(entries) => {
+entries.forEach((entry) => {
+if (entry.isIntersecting) {
+entry.target.classList.add('animate-fade-in');
+}
+});
+},
+{ threshold: 0.5 } // Adjust threshold as needed
+);
+
+if (gridRef.current) {
+const gridItems = gridRef.current.querySelectorAll('.grid-item');
+gridItems.forEach((item) => {
+observer.observe(item);
+});
+}
+}, []);
+
+const [ref, inView] = useInView({
+  triggerOnce: true,
+  threshold: 0.5,
+});
+
+const services = [
+{
+icon: 'construction-consultant.svg',                                                                         
+title: 'Construction Consultant',
+text: 'Our experts guide your project with data-driven insights, optimizing construction plans for efficiency, cost-effectiveness, and quality.',
+},
+{
+icon: 'architectural-design.svg', 
+title: 'Architectural Design',
+text: 'We fuse creativity with practicality, crafting spaces that inspire. Our architectural designs transform concepts into stunning blueprints.',
+},
+{
+icon: 'real-estate.svg',
+title: 'Real Estate',
+text: 'Shape the future with us. Our real estate development team creates sustainable properties, enriching communities and markets.',
+},
+{
+icon: 'general-contracting.svg',
+title: 'General Contracting',
+text: 'Leave every detail to us. As your general contractor, we manage and execute your project seamlessly, ensuring quality and safety.',
+},
+{
+icon: 'reconstruction-services.svg',
+title: 'Reconstruction Services',
+text: 'Revitalize spaces while preserving heritage. Our reconstruction services blend modern techniques with meticulous attention.',
+},
+{
+icon: 'property-development.svg',
+title: 'Property Development',
+text: 'From concept to reality, we specialize in transforming land into thriving developments, from planning to execution and beyond.',
+},
+];
+
+return (
+<div className="text-center py-16" ref={gridRef}>
+  
+<h1 className=" text-3xl  md:text-4xl font-bold relative inline-block capitalize text-gray-700">
+Our <span className=''>Services</span>
+<div className="w-8 h-1.5 bg-amber-500 absolute  top-11 left-0 transform -translate-x-0"></div>
+</h1>
+<div className='py-20 flex items-start justify-center'>
+<div className="container mx-auto px-4 py-8 align-top grid grid-cols-1 space-y-4 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-2 content-evenly items-start">
+{services.map((service, index) => (
+<div key={index} className="p-4">
+<div className="md:flex lg:justify-start align-top  md:flex-col lg:flex-row items-start justify-center">
+<div className="m-auto mt-0 lg:m-0 w-10 h-10 p-10 flex items-center align-top justify-center rounded-full border-4 border-amber-500 lg:mr-4">
+<Image 
+src={`/assets/images/${service.icon}`}
+width={45}
+alt='icon'
+height={45}
+className=' absolute'
+/>
+</div>
+<div className='mt-4 lg:mt-0'>
+<h3 className="text-lg font-semibold lg:text-left text-gray-700">{service.title}</h3>
+<p className="mt-2 lg:text-left text-base text-gray-700">{service.text}</p>
+</div>
+</div>
+</div>
+))}
+</div>
+</div>
+
+
+</div>
+)
+}
+
+export default Services
