@@ -21,6 +21,14 @@
           "/assets/images/projects/chapel hill/office04.webp"
         ],
         "image_flow": [
+          "/assets/images/projects/chapel hill/flow001.webp",
+          "/assets/images/projects/chapel hill/flow002.webp",
+          "/assets/images/projects/chapel hill/flow003.webp",
+          "/assets/images/projects/chapel hill/flow004.webp",
+          "/assets/images/projects/chapel hill/flow005.webp",
+          "/assets/images/projects/chapel hill/flow006.webp",
+          "/assets/images/projects/chapel hill/flow007.webp",
+          "/assets/images/projects/chapel hill/flow008.webp",
           "/assets/images/projects/chapel hill/flow02.webp",
           "/assets/images/projects/chapel hill/flow03.webp",
           "/assets/images/projects/chapel hill/flow04.webp",
@@ -151,8 +159,8 @@
         "location": "N/A",
         "date": "2019",
         "why": "Concept",
-        "description": "We are thrilled to present our visionary architectural design for a mixed living area. a multifaceted project that embodies the essence of modern urban living. This visionary development harmoniously integrates three towering structures, each dedicated to enhancing various facets of contemporary life.",
-        "shortDescription": "A modern urban project that seamlessly combines three distinct towers, enhancing diverse aspects of contemporary living.",
+        "description": "We are thrilled to present our visionary architectural design for a mixed living area done in collaboration with Kbox construction and design. a multifaceted project that embodies the essence of modern urban living. This visionary development harmoniously integrates three towering structures, each dedicated to enhancing various facets of contemporary life.",
+        "shortDescription": "A modern urban project designed that seamlessly combines three distinct towers, enhancing diverse aspects of contemporary living.",
         "coverImage": "/assets/images/design/The Tritowers/cover.webp",
         "project_image": "/assets/images/design/The Tritowers/cover00.webp",
         "images": [
@@ -249,8 +257,8 @@
     "location": "N/A",
     "date": "2019",
     "why": "Concept",
-    "description": "At the heart of urban living and modernity, we are proud to introduce our ambitious mixed living area design project. Nestled in a prime location, our design seamlessly integrates residential bliss, vibrant commercial spaces, a serene plaza, ample parking, and a luxurious pool area, all designed to enhance your lifestyle and provide a diverse and inclusive community experience.",
-    "shortDescription": "Introducing our diverse mixed living project, blending residential, commercial, plaza, parking, and pool amenities for urban living.",
+    "description": "At the heart of urban living and modernity, we are proud to introduce our ambitious mixed living area project designed in collaboration with Kbox construction and design. Nestled in a prime location, our design seamlessly integrates residential bliss, vibrant commercial spaces, a serene plaza, ample parking, and a luxurious pool area, all designed to enhance your lifestyle and provide a diverse and inclusive community experience.",
+    "shortDescription": "Introducing our the Gerard 3 mixed living project, blending residential, commercial, plaza, parking, and pool amenities for urban living.",
     "coverImage": "/assets/images/design/GERARD3/cover.webp",
     "project_image": "/assets/images/design/GERARD3/cover00.webp",
     "images": [
@@ -325,8 +333,8 @@
   "location": "N/A",
   "date": "2019",
   "why": "Concept",
-  "description": "Welcome to our distinctive mixed living area design project, where we've embarked on a journey to seamlessly weave together diverse elements, all converging to shape a truly harmonious and enriching community experience.",
-  "shortDescription": "Welcome to our unique mixed living project, seamlessly blending elements for a harmonious community experience.",
+  "description": "Welcome to our distinctive mixed living project designed in collaboration with Kbox construction and design, where we've embarked on a journey to seamlessly weave together diverse elements, all converging to shape a truly harmonious and enriching community experience.",
+  "shortDescription": "A mixed living project, Gerard 44 is designed to seamlessly blend elements for a harmonious community experience.",
   "coverImage": "/assets/images/design/GERARD44/cover.webp",
   "project_image": "/assets/images/design/GERARD44/cover00.webp",
   "images": [

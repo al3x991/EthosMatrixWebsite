@@ -141,6 +141,15 @@ const newItem = newUrl[0];
 setClickedImg(newItem);
 setCurrentIndex(newIndex);
 };
+const [visibleImages, setVisibleImages] = useState(8);
+const handleLoadMore = () => {
+  setVisibleImages(visibleImages + 8);
+};
+
+const handleShowLess = () => {
+  setVisibleImages(8);
+};
+
 // Check conditions for displaying content
 const shouldDisplayContent = project.category === 'Architectural Design' && project.content && project.content.length > 0;
 return (
@@ -392,7 +401,7 @@ alt={`Image ${index + 1}`} />
 </div>
 {/* end proposal architectural design images - alt layout */}
 
-{/* proposal architectural design images */}
+{/* proposal architectural design images - layout original */}
 <div className='py-4'>
 <p className='py-8 font-semibold  lg:py-3'>{project.content.length > 0  ? '' : 'Photo Stream'  }<span className=' font-normal'>{project.content.length > 0  ? '' : ' - Gallery'  }</span></p>
 <div className="grid grid-cols-1 md:grid-cols-3 2xl:grid-cols-4 gap-2">
@@ -425,7 +434,7 @@ alt={`Image ${index + 1}`} />
 </div>
 </div>
 {/* end proposal architectural design images */}
-
+{/* main gallery */}
 <div className='text-gray-700'>
 <div className='p-4'>
 {!project.content && (
@@ -467,6 +476,7 @@ alt={`Image ${index + 1}`} />
 {clickedImg && <Lightbox clickedImg={clickedImg} handleRotationRight={handleRotationRight} setClickedImg={setClickedImg} handelRotationLeft={handelRotationLeft}/>}
 </div>
 </div>
+{/* end main gallery */}
 </div>
 {/* right side */}
 {
