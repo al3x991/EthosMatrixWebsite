@@ -13,7 +13,7 @@ const Hero = () => {
   
 
 return (
-<section className="relative flex w-full h-[100vh] lg:h-[100vh] xl:h-[100vh] 2xl:h-[80vh] flex-1">
+<section className="relative flex min-h-[600px] w-full h-[100vh] lg:h-[100vh] xl:h-[100vh] 2xl:h-[80vh] flex-1">
  
 {/* className="object-cover w-full h-full"  */}
 <Image 
@@ -33,9 +33,9 @@ priority
    className="absolute top-0 left-0 right-0 bottom-0"
    
  ><div className="absolute inset-0 mt-48 lg:mt-32 2xl:mt-40 flex gap-5  text-white">
-
-<div className="mr-10 pl-10 md:pl-12 lg:pl-10 portrait:md:mt-24  h-2/3 flex flex-row lg:h-full  gap-28 justify-between  mb-40" style={{ marginLeft: '2%' }}>
-<div className="hidden lg:flex  xl:ml-40  md:flex-row md:space-x-2 md:transform md:-rotate-90 align-middle  w-1/3">
+<div className="container">
+<div className=" h-2/3 flex flex-row lg:h-full items-center px-2 md:px-16 justify-start lg:mt-[-50px] lg:ml-[12%]">
+<div className="hidden lg:flex absolute md:flex-row md:space-x-2 md:transform md:-rotate-90 align-middle  left-[-110px]">
 {/* Facebook social link */}
 <a href="#" className="flex flex-row gap-2">
 <svg xmlns="http://www.w3.org/2000/svg" fill="#94a3b8" width="30px" height="30px" viewBox="0 0 32 32">
@@ -84,7 +84,7 @@ priority
 
 
 </div>
-<motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="flex-grow lg:absolute" style={{ left: '18%' }} transition={{ delay: 0.0 }}>
+<motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="flex-grow p-5 md:p-0 max-w-3xl"  transition={{ delay: 0.0 }}>
 <p className=" text-xs md:text-base mb-3">Building Beyond Boundaries</p>
 <h2 className="capitalize text-3xl max-w-xl md:max-w-6xl mx-auto xl:mx-0  md:text-3xl xl:text-3xl font-semibold mb-6">
 <span className="text-color-primary">Redefining</span> spaces, enriching lives.</h2>
@@ -95,6 +95,7 @@ Explore the art of construction excellence and let your aspirations come to life
 <Link href="/projects" initial={{ opacity: 0 }}  animate={{ opacity: 1 }} transition={{ delay: 0.4 }}>Discover More</Link>
 </motion.div>
 </motion.div>
+</div>
 </div>
 </div>
 </motion.div>

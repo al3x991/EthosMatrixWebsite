@@ -38,7 +38,7 @@ Masterful Renovations
 
 With a steadfast commitment to excellence, our renovations exceed expectations. Our artisans infuse skill and passion into each project, breathing new life into homes and spaces. Whether it's restoring historical charm or crafting modern marvels, we're your partners in uncovering potential. Experience the art of renovation and redefine your surroundings with us.</p>
 </div>
-<div className=' w-4/5 xl:max-w-lg mx-auto'>
+<div className=' w-full max-w-[600px] xl:max-w-lg mx-auto'>
 <ReactBeforeSliderComponent
 firstImage={FIRST_IMAGE}
 secondImage={SECOND_IMAGE}
