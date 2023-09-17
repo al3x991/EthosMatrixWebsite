@@ -18,8 +18,8 @@ const ContactForm = () => {
   return (
 	<div className="mx-auto max-w-screen-lg">
 	<div className="flex flex-col md:flex-row gap-8 items-center py-12 mt-8">
-	<div className=" flex flex-col justify-start items-start ">
-       <h1 className="text-3xl font-bold text-gray-800 capitalize mb-12">Let's start a Conversation</h1> 
+	<div className=" flex flex-col justify-start items-start mx-auto p-8 xl:mx-0 xl:p-0">
+       <h1 className="text-3xl font-bold text-gray-800 capitalize mb-12 text-center">Let's start a Conversation</h1> 
         <div className="text-base font-normal text-slate-600  p-2 mb-10 max-w-screen-lg">
           Our team is ready to assist you in any way we can. if you have inquiries, 
 		  require our services or would like to collaborate with us. Feel free to contact us today and we will get back to you as soon as possible.

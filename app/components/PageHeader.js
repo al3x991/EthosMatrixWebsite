@@ -29,7 +29,7 @@ priority
 
 <div className="absolute inset-0 bg-black backdrop-brightness-50 opacity-75"></div>
    <div>
-    <div className="inset-0 absolute  top-[60%]  left-1/2 text-white" style={{ transform: 'translate(-50%, -50%)' }}>
+    <div className="inset-0 absolute  top-[60%] min-w-[300px]  left-1/2 text-white" style={{ transform: 'translate(-50%, -50%)' }}>
 <div className="flex flex-col gap-3 justify-center text-center">
 <h2 className="capitalize text-3xl font-extrabold leading-9 tracking-tight sm:text-4xl md:text5xl">
 {title}</h2>
